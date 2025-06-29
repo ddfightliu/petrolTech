@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <unitSystem>ECLIPSE_FIELD</unitSystem>
+  </metadata>
+  <contents>
+    <version>2.1</version>
+    <entityMapFile>
+      <version>1.0</version>
+      <fileLocation>strategies\aliases.xml</fileLocation>
+    </entityMapFile>
+    <regionAliasFile>
+      <version>1.0</version>
+      <fileLocation>bulk_data\RegionAliases.xml</fileLocation>
+    </regionAliasFile>
+  </contents>
+</package>

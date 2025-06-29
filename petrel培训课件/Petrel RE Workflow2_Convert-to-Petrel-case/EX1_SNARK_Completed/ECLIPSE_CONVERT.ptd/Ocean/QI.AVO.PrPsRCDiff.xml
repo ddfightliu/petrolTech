@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PrPsRCDiff droid="://QI.AVO.PrPsRCDiff/1c57dfb9-c785-485b-8504-d4231ce83ad9">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPsRCDiff/1c57dfb9-c785-485b-8504-d4231ce83ad9</Droid>
+  </QI.AVO.PrPsRCDiff>
+</XmlAutoDataSource>

@@ -1,0 +1,52 @@
+######################################
+# IXFVERSION: 2018.2 Petrel
+######################################
+
+MODEL_DEFINITION
+
+SeparatorMgr {
+    VaporStandardPressure=14.696
+    VaporStandardTemperature=60.0000195313
+}
+
+Separator "default_injection_stream_separator" {
+    FluidModel="PVTNUM_1"
+    SeparatorStage "default_injection_stream_separator_stage_1" {
+        Temperature=60
+        Pressure=14.6959487755
+        StageOutlet "default_injection_stream_separator_Stage1_liquid_outlet" {
+            Phase=LIQUID
+            TargetFractionToDestination=1
+        }
+        
+        StageOutlet "default_injection_stream_separator_Stage1_vapor_outlet" {
+            Phase=VAPOR
+            TargetFractionToDestination=1
+        }
+        
+        StageOutlet "default_injection_stream_separator_Stage1_aqueous_outlet" {
+            Phase=AQUEOUS
+            Destination=""
+            TargetFractionToDestination=1
+        }
+        
+    }
+    
+}
+
+
+START
+DATE "1-Jan-1998"
+#TIME 0.0
+
+
+DATE "1-Feb-1998"
+#TIME 31.0
+
+
+DATE "1-Jan-2008"
+#TIME 3652.0
+
+
+END_INPUT
+#DATE 1-Jan-2008 00:00:00

@@ -1,0 +1,454 @@
+<ix>
+<message date="" time="">
+ ECLIPSE2IX Migrator 2018.2 (Build 626317, Dec 13 2018 12:00:41)
+
+Proprietary Notice
+This application contains the confidential and proprietary trade secrets of Schlumberger and may not be copied
+or stored in an information retrieval system, transferred, used, distributed, translated, or retransmitted in
+any form or by any means, electronic or mechanical, in whole or in part, without the express written permission
+of the copyright owner.
+
+Copyright (c) 2018 Schlumberger. All rights reserved.
+
+
+</message>
+<message date="" time="">
+ Using E100 defaults for missing keyword values.
+</message>
+<message date="" time="">
+ Checking for licenses
+</message>
+<message date="" time="">
+ Successfully checked for license feature Petrel_FCombinedCore.
+</message>
+<message date="" time="">
+ Making AFI using KEYWORDS workflow.
+</message>
+<message date="" time="">
+ Running the default workflow (grids processed in INTERSECT).
+</message>
+<message date="" time="">
+ Importing development strategy package from SNARK_CONVERTED_1_DS_DSP.INC.
+</message>
+<message date="" time="">
+ Reading &apos;SNARK_CONVERTED_1_DS.DATA&apos;.
+</message>
+<message date="" time="">
+ Started reading EGRID file.
+</message>
+<message date="" time="">
+ Used corner point geometry 24*25*12.
+</message>
+<message date="" time="">
+ Initialization by equilibration.
+</message>
+<message date="" time="">
+ Fluid system is: BLACK OIL
+</message>
+<message date="" time="">
+ Number of PVT tables: 1 =========&gt;         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+
+</message>
+<warning date="" time="">
+ EQLDIMS keyword not found. Assuming number of EQL regions: 1 =========&gt;         while processing keyword: EQLDIMS
+
+
+</warning>
+<message date="" time="">
+ Number of SAT regions: 1 =========&gt;         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+
+</message>
+<message date="" time="">
+ Number of ROCK tables (defined by ROCKNUM): 1 =========&gt;         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+
+</message>
+<message date="" time="">
+ The default MINNNCT cutoff of 1.0E-6 is being applied to the NNC transmissibility calculations.
+</message>
+<warning date="" time="">
+ The following property was not migrated because it is not implemented by the simulator: &apos;FLOWS&apos;.
+</warning>
+<warning date="" time="">
+ The maximum saturated pressure for the oil PVT (= 3300 psi) is different from the maximum pressure for the gas PVT (= 3400 psi).
+</warning>
+<warning date="" time="">
+ The following property was not migrated because it is not implemented by the simulator: &apos;FLOWS&apos;. =========&gt;         while processing keyword: RPTRST (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS_SCH.INC, line 9)
+
+
+</warning>
+<message date="" time="">
+ Reached 31 d.
+</message>
+<message date="" time="">
+ Reached 59 d.
+</message>
+<message date="" time="">
+ Reached 90 d.
+</message>
+<message date="" time="">
+ Reached 120 d.
+</message>
+<message date="" time="">
+ Reached 151 d.
+</message>
+<message date="" time="">
+ Reached 181 d.
+</message>
+<message date="" time="">
+ Reached 212 d.
+</message>
+<message date="" time="">
+ Reached 243 d.
+</message>
+<message date="" time="">
+ Reached 273 d.
+</message>
+<message date="" time="">
+ Reached 304 d.
+</message>
+<message date="" time="">
+ Reached 334 d.
+</message>
+<message date="" time="">
+ Reached 365 d.
+</message>
+<message date="" time="">
+ Reached 396 d.
+</message>
+<message date="" time="">
+ Reached 424 d.
+</message>
+<message date="" time="">
+ Reached 455 d.
+</message>
+<message date="" time="">
+ Reached 485 d.
+</message>
+<message date="" time="">
+ Reached 516 d.
+</message>
+<message date="" time="">
+ Reached 546 d.
+</message>
+<message date="" time="">
+ Reached 577 d.
+</message>
+<message date="" time="">
+ Reached 608 d.
+</message>
+<message date="" time="">
+ Reached 638 d.
+</message>
+<message date="" time="">
+ Reached 669 d.
+</message>
+<message date="" time="">
+ Reached 699 d.
+</message>
+<message date="" time="">
+ Reached 730 d.
+</message>
+<message date="" time="">
+ Reached 761 d.
+</message>
+<message date="" time="">
+ Reached 790 d.
+</message>
+<message date="" time="">
+ Reached 821 d.
+</message>
+<message date="" time="">
+ Reached 851 d.
+</message>
+<message date="" time="">
+ Reached 882 d.
+</message>
+<message date="" time="">
+ Reached 912 d.
+</message>
+<message date="" time="">
+ Reached 943 d.
+</message>
+<message date="" time="">
+ Reached 974 d.
+</message>
+<message date="" time="">
+ Reached 1004 d.
+</message>
+<message date="" time="">
+ Reached 1035 d.
+</message>
+<message date="" time="">
+ Reached 1065 d.
+</message>
+<message date="" time="">
+ Reached 1096 d.
+</message>
+<message date="" time="">
+ Reached 1127 d.
+</message>
+<message date="" time="">
+ Reached 1155 d.
+</message>
+<message date="" time="">
+ Reached 1186 d.
+</message>
+<message date="" time="">
+ Reached 1216 d.
+</message>
+<message date="" time="">
+ Reached 1247 d.
+</message>
+<message date="" time="">
+ Reached 1277 d.
+</message>
+<message date="" time="">
+ Reached 1308 d.
+</message>
+<message date="" time="">
+ Reached 1339 d.
+</message>
+<message date="" time="">
+ Reached 1369 d.
+</message>
+<message date="" time="">
+ Reached 1400 d.
+</message>
+<message date="" time="">
+ Reached 1430 d.
+</message>
+<message date="" time="">
+ Reached 1461 d.
+</message>
+<message date="" time="">
+ Reached 1492 d.
+</message>
+<message date="" time="">
+ Reached 1520 d.
+</message>
+<message date="" time="">
+ Reached 1551 d.
+</message>
+<message date="" time="">
+ Reached 1581 d.
+</message>
+<message date="" time="">
+ Reached 1612 d.
+</message>
+<message date="" time="">
+ Reached 1642 d.
+</message>
+<message date="" time="">
+ Reached 1673 d.
+</message>
+<message date="" time="">
+ Reached 1704 d.
+</message>
+<message date="" time="">
+ Reached 1734 d.
+</message>
+<message date="" time="">
+ Reached 1765 d.
+</message>
+<message date="" time="">
+ Reached 1795 d.
+</message>
+<message date="" time="">
+ Reached 1826 d.
+</message>
+<message date="" time="">
+ Reached 1857 d.
+</message>
+<message date="" time="">
+ Reached 1885 d.
+</message>
+<message date="" time="">
+ Reached 1916 d.
+</message>
+<message date="" time="">
+ Reached 1946 d.
+</message>
+<message date="" time="">
+ Reached 1977 d.
+</message>
+<message date="" time="">
+ Reached 2007 d.
+</message>
+<message date="" time="">
+ Reached 2038 d.
+</message>
+<message date="" time="">
+ Reached 2069 d.
+</message>
+<message date="" time="">
+ Reached 2099 d.
+</message>
+<message date="" time="">
+ Reached 2130 d.
+</message>
+<message date="" time="">
+ Reached 2160 d.
+</message>
+<message date="" time="">
+ Reached 2191 d.
+</message>
+<message date="" time="">
+ Reached 2222 d.
+</message>
+<message date="" time="">
+ Reached 2251 d.
+</message>
+<message date="" time="">
+ Reached 2282 d.
+</message>
+<message date="" time="">
+ Reached 2312 d.
+</message>
+<message date="" time="">
+ Reached 2343 d.
+</message>
+<message date="" time="">
+ Reached 2373 d.
+</message>
+<message date="" time="">
+ Reached 2404 d.
+</message>
+<message date="" time="">
+ Reached 2435 d.
+</message>
+<message date="" time="">
+ Reached 2465 d.
+</message>
+<message date="" time="">
+ Reached 2496 d.
+</message>
+<message date="" time="">
+ Reached 2526 d.
+</message>
+<message date="" time="">
+ Reached 2557 d.
+</message>
+<message date="" time="">
+ Reached 2588 d.
+</message>
+<message date="" time="">
+ Reached 2616 d.
+</message>
+<message date="" time="">
+ Reached 2647 d.
+</message>
+<message date="" time="">
+ Reached 2677 d.
+</message>
+<message date="" time="">
+ Reached 2708 d.
+</message>
+<message date="" time="">
+ Reached 2738 d.
+</message>
+<message date="" time="">
+ Reached 2769 d.
+</message>
+<message date="" time="">
+ Reached 2800 d.
+</message>
+<message date="" time="">
+ Reached 2830 d.
+</message>
+<message date="" time="">
+ Reached 2861 d.
+</message>
+<message date="" time="">
+ Reached 2891 d.
+</message>
+<message date="" time="">
+ Reached 2922 d.
+</message>
+<message date="" time="">
+ Reached 2953 d.
+</message>
+<message date="" time="">
+ Reached 2981 d.
+</message>
+<message date="" time="">
+ Reached 3012 d.
+</message>
+<message date="" time="">
+ Reached 3042 d.
+</message>
+<message date="" time="">
+ Reached 3073 d.
+</message>
+<message date="" time="">
+ Reached 3103 d.
+</message>
+<message date="" time="">
+ Reached 3134 d.
+</message>
+<message date="" time="">
+ Reached 3165 d.
+</message>
+<message date="" time="">
+ Reached 3195 d.
+</message>
+<message date="" time="">
+ Reached 3226 d.
+</message>
+<message date="" time="">
+ Reached 3256 d.
+</message>
+<message date="" time="">
+ Reached 3287 d.
+</message>
+<message date="" time="">
+ Reached 3318 d.
+</message>
+<message date="" time="">
+ Reached 3346 d.
+</message>
+<message date="" time="">
+ Reached 3377 d.
+</message>
+<message date="" time="">
+ Reached 3407 d.
+</message>
+<message date="" time="">
+ Reached 3438 d.
+</message>
+<message date="" time="">
+ Reached 3468 d.
+</message>
+<message date="" time="">
+ Reached 3499 d.
+</message>
+<message date="" time="">
+ Reached 3530 d.
+</message>
+<message date="" time="">
+ Reached 3560 d.
+</message>
+<message date="" time="">
+ Reached 3591 d.
+</message>
+<message date="" time="">
+ Reached 3621 d.
+</message>
+<message date="" time="">
+ Reached 3652 d.
+</message>
+<message date="" time="">
+ Writing keyword migration report to SNARK_CONVERTED_1_DS_ECL2IX.xml.
+</message>
+<message date="" time="">
+ SNARK_CONVERTED_1_DS.afi has been created.
+</message>
+<message date="" time="">
+ Migration complete. Elapsed time 0hrs:0mins:13secs (13secs)
+</message>
+<message date="" time="">
+ Run finished normally.
+</message>
+</ix>

@@ -1,0 +1,12 @@
+#############################
+# IXFVERSION: 2018.2 (625958)
+#############################
+
+INCLUDE "SNARK_CONVERTED_1_DS.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS" gsg_type="geom_and_props" }
+INCLUDE "SNARK_CONVERTED_1_DS_ECL2IX_IX.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS" }
+INCLUDE "SNARK_CONVERTED_1_DS_RESERVOIR_SIMULATION_SETTINGS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS" }
+INCLUDE "SNARK_CONVERTED_1_DS_RESERVOIR_MODEL.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS" }
+INCLUDE "SNARK_CONVERTED_1_DS_IX_EDIT.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS" }
+EXTENSION "custom_scripts"
+INCLUDE "SNARK_CONVERTED_1_DS_ECL2IX_FM.ixf" { simulation="fm" type="ixf" }
+INCLUDE "SNARK_CONVERTED_1_DS_REPORT_SETTINGS.ixf" { simulation="fm" type="ixf" }

@@ -1,0 +1,13 @@
+-- Generated [
+-- Format      : ECLIPSE keywords (grid properties) (ASCII)
+-- Exported by : Petrel 2015.6 (64-bit) Schlumberger
+-- User name   : JLiu38
+-- Date        : Monday, September 12 2016 15:25:32
+-- Project     : SNARK_DEMO.pet
+-- Grid        : SNARK.GRDECL
+-- Unit system : ECLIPSE-Field
+-- Generated ]
+
+PVTNUM                                 -- Generated : Petrel
+  7200*1 /
+

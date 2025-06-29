@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/747e66e2-f2d9-47a7-b747-1738b33072b7">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/747e66e2-f2d9-47a7-b747-1738b33072b7</Droid>
+  </QI.AVO.DensityCt>
+</XmlAutoDataSource>

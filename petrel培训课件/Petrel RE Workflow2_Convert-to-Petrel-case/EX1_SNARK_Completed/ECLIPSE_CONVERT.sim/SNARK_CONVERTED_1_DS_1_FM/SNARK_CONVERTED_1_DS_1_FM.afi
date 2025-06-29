@@ -1,0 +1,28 @@
+#############################
+# IXFVERSION: 2018.2 (625958)
+#############################
+
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="geom_and_props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_REGIONS.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_CRITICAL_WATER_SATURATION.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_PERM_I.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_PERM_J.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_PERM_K.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_POROSITY.GSG" { simulation="ix" type="gsg" reservoir="SNARK_CONVERTED_1_DS_1_FM" gsg_type="props" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_RESERVOIR_DEFINITION.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_FAULTS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_FLUIDS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_ROCKS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_REGIONS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_SEPARATORS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_WELLS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_WELL_CONNECTIONS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_RESERVOIR_SIMULATION_SETTINGS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_PROPERTY_EDITS.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_IX_EDIT.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_RES_IX_EDIT.ixf" { simulation="ix" type="ixf" reservoir="SNARK_CONVERTED_1_DS_1_FM" }
+EXTENSION "custom_scripts"
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_WELL_COMPLETIONS.ixf" { simulation="fm" type="ixf" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_SNARK_CONVERTED_1_DS_1_FM_FM.ixf" { simulation="fm" type="ixf" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM.obsh" { simulation="fm" type="obsh" historical_data_control="New Historical Data Control 1" }
+INCLUDE "SNARK_CONVERTED_1_DS_1_FM_REPORT_SETTINGS.ixf" { simulation="fm" type="ixf" }

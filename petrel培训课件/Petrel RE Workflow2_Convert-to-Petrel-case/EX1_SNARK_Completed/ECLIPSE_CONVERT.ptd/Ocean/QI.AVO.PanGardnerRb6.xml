@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PanGardnerRb6 droid="://QI.AVO.PanGardnerRb6/40f5808f-6ab7-445a-8af8-e1c70b8f7619">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardnerRb6/40f5808f-6ab7-445a-8af8-e1c70b8f7619</Droid>
+  </QI.AVO.PanGardnerRb6>
+</XmlAutoDataSource>

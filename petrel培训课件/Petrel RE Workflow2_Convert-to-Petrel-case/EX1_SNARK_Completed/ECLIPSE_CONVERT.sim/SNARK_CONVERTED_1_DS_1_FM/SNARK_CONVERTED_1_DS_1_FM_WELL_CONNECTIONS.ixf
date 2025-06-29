@@ -1,0 +1,122 @@
+######################################
+# IXFVERSION: 2018.2 Petrel
+######################################
+
+
+START
+DATE "1-Jan-1998"
+#TIME 0.0
+
+
+WellDef "PROD1" {
+    Undefined="False"
+    
+    WellToCellConnections  [
+             Cell                Completion    SegmentNode    Status       MeasuredDepth    WellBoreRadius    Skin    PiMultiplier    PressureEquivalentRadius    PermeabilityThickness       Transmissibility
+         (13 8 1)     "Completion (13 8 1)"              1      OPEN    7640.61994197335            0.3125     7.5               1            88.1785617202821         12485.6025549466       6.72789986047137
+         (13 8 2)     "Completion (13 8 2)"              1      OPEN    7703.11994197335            0.3125     7.5               1            88.1330195412385         198.580799665461      0.107009993927905
+         (13 8 3)     "Completion (13 8 3)"              1      OPEN    7744.36994197336            0.3125     7.5               1            88.0903166089555          11.443444163628    0.00616679987771958
+         (13 8 8)     "Completion (13 8 8)"              1      OPEN    7771.34550912651            0.3125     7.5               1            88.2230203404453         24937.2735337987       13.4370002456576
+         (13 8 9)     "Completion (13 8 9)"              1      OPEN    7807.07107627966            0.3125     7.5               1             88.285868870239         23268.2551249114       12.5370004741326
+        (13 8 10)    "Completion (13 8 10)"              1      OPEN    7844.57107627967            0.3125     7.5               1            88.2508667890236         1977.10166843714       1.06530000881781
+        (13 8 11)    "Completion (13 8 11)"              1      OPEN    7888.32107627967            0.3125     7.5               1            88.1765715869888          31.277514775478     0.0168540002569155
+        (13 8 12)    "Completion (13 8 12)"              1      OPEN    7938.32107627966            0.3125     7.5               1            88.1840391955894         44.0011051388966     0.0237099994705577
+    ]
+    
+}
+
+
+WellToCellConnections "PROD1" {
+    RockRegionName=[]
+    DFactor=[]
+    PenetrationDirection=[]
+}
+
+
+WellDef "PROD2" {
+    Undefined="False"
+    
+    WellToCellConnections  [
+             Cell                Completion    SegmentNode    Status       MeasuredDepth    WellBoreRadius    Skin    PiMultiplier    PressureEquivalentRadius    PermeabilityThickness       Transmissibility
+         (7 20 1)     "Completion (7 20 1)"              1      OPEN    7902.80318982585            0.3125     7.5               1            87.0753102996318         27971.5563819305       15.0870002161032
+         (7 20 2)     "Completion (7 20 2)"              1      OPEN    7965.30318982585            0.3125     7.5               1            87.0681192299263         13901.8891188326       7.49830007833932
+         (7 20 3)     "Completion (7 20 3)"              1      OPEN    8006.55318982585            0.3125     7.5               1            86.9555029956506         8.59877147692865    0.00463840019171177
+         (7 20 8)     "Completion (7 20 8)"              1      OPEN    8021.78554961627            0.3125     7.5               1            87.0191914166154         1303.18029053515      0.702930022404352
+         (7 20 9)     "Completion (7 20 9)"              1      OPEN    8045.76790940669            0.3125     7.5               1            87.0212045493523         4538.41895642594       2.44799997414975
+        (7 20 10)    "Completion (7 20 10)"              1      OPEN    8083.26790940669            0.3125     7.5               1            87.0228392513396         5316.70605916486       2.86779995381182
+    ]
+    
+}
+
+
+WellToCellConnections "PROD2" {
+    RockRegionName=[]
+    DFactor=[]
+    PenetrationDirection=[]
+}
+
+
+WellDef "PROD3" {
+    Undefined="False"
+    
+    WellToCellConnections  [
+             Cell                Completion    SegmentNode    Status       MeasuredDepth    WellBoreRadius    Skin    PiMultiplier    PressureEquivalentRadius    PermeabilityThickness       Transmissibility
+        (16 16 2)    "Completion (16 16 2)"              1      OPEN    7868.72327984544            0.3125     7.5               1            86.6093425886746          7967.9040893242       4.29940025583074
+        (16 16 3)    "Completion (16 16 3)"              1      OPEN    7909.97327984544            0.3125     7.5               1            86.5646459838914         16.0914043519835    0.00868310014585459
+        (16 16 6)    "Completion (16 16 6)"              1      OPEN    7931.06761988635            0.3125     7.5               1            86.6531571832736          4730.9976489283       2.55269999205277
+        (16 16 7)    "Completion (16 16 7)"              1      OPEN    7967.16195992725            0.3125     7.5               1            86.7357012640217         21225.8850569104       11.4520002589332
+        (16 16 8)    "Completion (16 16 8)"              1      OPEN    8017.16195992725            0.3125     7.5               1             86.737611452978           26150.58619822       14.1090002442233
+        (16 16 9)    "Completion (16 16 9)"              1      OPEN    8060.91195992723            0.3125     7.5               1            86.7229712122324         8560.50435837132       4.61869995686326
+    ]
+    
+}
+
+
+WellToCellConnections "PROD3" {
+    RockRegionName=[]
+    DFactor=[]
+    PenetrationDirection=[]
+}
+
+
+WellDef "PROD4" {
+    Undefined="False"
+    
+    WellToCellConnections  [
+             Cell                Completion    SegmentNode    Status       MeasuredDepth    WellBoreRadius    Skin    PiMultiplier    PressureEquivalentRadius    PermeabilityThickness    Transmissibility
+        (17 21 1)    "Completion (17 21 1)"              1      OPEN    8046.64936745514            0.3125     7.5               1            86.7473694195548         36239.3251951673    19.5520001813296
+        (17 21 2)    "Completion (17 21 2)"              1      OPEN    8109.14936745508            0.3125     7.5               1            86.7311068950453         10019.0521588019    5.40560031522121
+    ]
+    
+}
+
+
+WellToCellConnections "PROD4" {
+    RockRegionName=[]
+    DFactor=[]
+    PenetrationDirection=[]
+}
+
+
+WellDef "PRODUCER" {
+    Undefined="False"
+    
+    WellToCellConnections  [
+            Cell               Completion    SegmentNode    Status       MeasuredDepth    WellBoreRadius    Skin    PiMultiplier    PressureEquivalentRadius    PermeabilityThickness       Transmissibility
+         (6 8 1)     "Completion (6 8 1)"              1      OPEN    7916.88717535016            0.3125     7.5               1            90.2248041052724         12462.9658968779       6.70400007745903
+         (6 8 2)     "Completion (6 8 2)"              1      OPEN    7979.38717535015            0.3125     7.5               1            90.2117056602972         7904.52686452575       4.25200016932892
+         (6 8 3)     "Completion (6 8 3)"              1      OPEN    8020.63717535015            0.3125     7.5               1            89.9314893954795          6.8876913112235    0.00370590009073307
+         (6 8 8)     "Completion (6 8 8)"              1      OPEN    8030.64134567427            0.3125     7.5               1            90.1771012833363         3.87277033581734    0.00208329989927258
+         (6 8 9)     "Completion (6 8 9)"              1      OPEN    8048.91191995879            0.3125     7.5               1            90.1708913663423         7084.45798733261       3.81100001726001
+        (6 8 10)    "Completion (6 8 10)"              1      OPEN     8085.4448496922            0.3125     7.5               1            89.9355581893773         15.6354973202615    0.00841259997749952
+    ]
+    
+}
+
+
+WellToCellConnections "PRODUCER" {
+    RockRegionName=[]
+    DFactor=[]
+    PenetrationDirection=[]
+}
+

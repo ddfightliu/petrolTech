@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.SignOfInTimesGr droid="://QI.AVO.SignOfInTimesGr/b50cb766-c081-42b1-a53c-122639708168">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.SignOfInTimesGr/b50cb766-c081-42b1-a53c-122639708168</Droid>
+  </QI.AVO.SignOfInTimesGr>
+</XmlAutoDataSource>

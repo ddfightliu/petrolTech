@@ -1,0 +1,10 @@
+<rte>
+<comment date="" source="slbrun" time="">Workflow starting task: SNARK</comment>
+<comment date="" source="slbrun" time="">Submission Command: C:\ecl\2019.1\bin\pc_x86_64\eclipse.exe SNARK</comment>
+<comment date="" source="slbrun" time="">E100 has finished</comment>
+<comment date="" source="slbrun" time="">Workflow starting task: SNARK summary conversion</comment>
+<comment date="" source="slbrun" time="">Creating temp conversion directory convert_20190816161350_34b783a3</comment>
+<comment date="" source="slbrun" time="">Submission Command: C:\ecl\2019.1\bin\pc_x86_64\ConvertSummaryData2DataBase.exe SNARK.DATA convert_20190816161350_34b783a3</comment>
+<comment date="" source="slbrun" time="">Conversion has finished</comment>
+<comment date="" source="slbrun" time="">Removing temp conversion directory convert_20190816161350_34b783a3</comment>
+</rte>

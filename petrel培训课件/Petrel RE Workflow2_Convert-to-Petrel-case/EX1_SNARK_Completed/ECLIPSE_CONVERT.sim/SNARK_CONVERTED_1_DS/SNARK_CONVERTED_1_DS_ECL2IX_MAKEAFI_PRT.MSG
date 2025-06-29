@@ -1,0 +1,1059 @@
+INFO     ECLIPSE2IX Migrator 2018.2 (Build 626317, Dec 13 2018 12:00:41)
+         
+         Proprietary Notice
+         This application contains the confidential and proprietary trade secrets of Schlumberger and may not be copied
+         or stored in an information retrieval system, transferred, used, distributed, translated, or retransmitted in
+         any form or by any means, electronic or mechanical, in whole or in part, without the express written permission
+         of the copyright owner.
+         
+         Copyright (c) 2018 Schlumberger. All rights reserved.
+         
+
+INFO     Using E100 defaults for missing keyword values.
+INFO     Checking for licenses
+INFO     Successfully checked for license feature Petrel_FCombinedCore.
+INFO     Making AFI using KEYWORDS workflow.
+INFO     Running the default workflow (grids processed in INTERSECT).
+INFO     Importing development strategy package from SNARK_CONVERTED_1_DS_DSP.INC.
+INFO     Reading 'SNARK_CONVERTED_1_DS.DATA'.
+INFO     Started reading EGRID file.
+INFO     Used corner point geometry 24*25*12.
+INFO     Initialization by equilibration.
+INFO     Fluid system is: BLACK OIL
+INFO     Number of PVT tables: 1
+         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+WARNING  EQLDIMS keyword not found. Assuming number of EQL regions: 1
+         while processing keyword: EQLDIMS
+
+REPORT   +-------------------------------------------------+
+         | Standard temperature  (absolute) | 519.671 degR |
+         | Standard temperature             | 60.0008 degF |
+         | Standard pressure                | 14.6959 psi  |
+         +-------------------------------------------------+
+
+INFO     Number of SAT regions: 1
+         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+INFO     Number of ROCK tables (defined by ROCKNUM): 1
+         while processing keyword: TABDIMS (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS.DATA, line 52)
+
+REPORT   Number of cells in the model:
+         +---------------------+
+         |    Grid     | Cells |
+         +---------------------+
+         | Global grid |  7200 |
+         +---------------------+
+
+INFO     The default MINNNCT cutoff of 1.0E-6 is being applied to the NNC transmissibility calculations.
+WARNING  The following property was not migrated because it is not implemented by the simulator: 'FLOWS'.
+WARNING  Validation of BlackOilFluidModel['PVTNUM_1']:
+         The maximum saturated pressure for the oil PVT (= 3300 psi) is different from the maximum pressure for the gas 
+         PVT (= 3400 psi).
+WARNING  Validation of BlackOilFluidModel['PVTNUM_1']:
+         The saturated oil density is not decreasing with increasing bubble point pressure. Please review the OilTable 
+         FormationVolumeFactor data.
+         +-------------------------------------------------------------------------------------+
+         | (from) Psat |    Rs    |   Bo   |  Deno   | (to) Psat |    Rs    |   Bo   |  Deno   |
+         |     psi     | MSCF/STB | RB/STB | lbm/ft3 |    psi    | MSCF/STB | RB/STB | lbm/ft3 |
+         +-------------------------------------------------------------------------------------+
+         |      1783.8 |    2.403 |  3.107 | 26.9698 |      3300 |        5 |    3.5 | 36.7606 |
+         +-------------------------------------------------------------------------------------+
+
+REPORT   Options utilized:
+         +----------------+
+         | Option | Value |
+         +----------------+
+         | nogsg  | on    |
+         +----------------+
+
+WARNING  The following property was not migrated because it is not implemented by the simulator: 'FLOWS'.
+         while processing keyword: RPTRST (in C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS\SNARK_CONVERTED_1_DS_SCH.INC, line 9)
+
+INFO     Reached 31 d.
+INFO     Reached 59 d.
+INFO     Reached 90 d.
+INFO     Reached 120 d.
+INFO     Reached 151 d.
+INFO     Reached 181 d.
+INFO     Reached 212 d.
+INFO     Reached 243 d.
+INFO     Reached 273 d.
+INFO     Reached 304 d.
+INFO     Reached 334 d.
+INFO     Reached 365 d.
+INFO     Reached 396 d.
+INFO     Reached 424 d.
+INFO     Reached 455 d.
+INFO     Reached 485 d.
+INFO     Reached 516 d.
+INFO     Reached 546 d.
+INFO     Reached 577 d.
+INFO     Reached 608 d.
+INFO     Reached 638 d.
+INFO     Reached 669 d.
+INFO     Reached 699 d.
+INFO     Reached 730 d.
+INFO     Reached 761 d.
+INFO     Reached 790 d.
+INFO     Reached 821 d.
+INFO     Reached 851 d.
+INFO     Reached 882 d.
+INFO     Reached 912 d.
+INFO     Reached 943 d.
+INFO     Reached 974 d.
+INFO     Reached 1004 d.
+INFO     Reached 1035 d.
+INFO     Reached 1065 d.
+INFO     Reached 1096 d.
+INFO     Reached 1127 d.
+INFO     Reached 1155 d.
+INFO     Reached 1186 d.
+INFO     Reached 1216 d.
+INFO     Reached 1247 d.
+INFO     Reached 1277 d.
+INFO     Reached 1308 d.
+INFO     Reached 1339 d.
+INFO     Reached 1369 d.
+INFO     Reached 1400 d.
+INFO     Reached 1430 d.
+INFO     Reached 1461 d.
+INFO     Reached 1492 d.
+INFO     Reached 1520 d.
+INFO     Reached 1551 d.
+INFO     Reached 1581 d.
+INFO     Reached 1612 d.
+INFO     Reached 1642 d.
+INFO     Reached 1673 d.
+INFO     Reached 1704 d.
+INFO     Reached 1734 d.
+INFO     Reached 1765 d.
+INFO     Reached 1795 d.
+INFO     Reached 1826 d.
+INFO     Reached 1857 d.
+INFO     Reached 1885 d.
+INFO     Reached 1916 d.
+INFO     Reached 1946 d.
+INFO     Reached 1977 d.
+INFO     Reached 2007 d.
+INFO     Reached 2038 d.
+INFO     Reached 2069 d.
+INFO     Reached 2099 d.
+INFO     Reached 2130 d.
+INFO     Reached 2160 d.
+INFO     Reached 2191 d.
+INFO     Reached 2222 d.
+INFO     Reached 2251 d.
+INFO     Reached 2282 d.
+INFO     Reached 2312 d.
+INFO     Reached 2343 d.
+INFO     Reached 2373 d.
+INFO     Reached 2404 d.
+INFO     Reached 2435 d.
+INFO     Reached 2465 d.
+INFO     Reached 2496 d.
+INFO     Reached 2526 d.
+INFO     Reached 2557 d.
+INFO     Reached 2588 d.
+INFO     Reached 2616 d.
+INFO     Reached 2647 d.
+INFO     Reached 2677 d.
+INFO     Reached 2708 d.
+INFO     Reached 2738 d.
+INFO     Reached 2769 d.
+INFO     Reached 2800 d.
+INFO     Reached 2830 d.
+INFO     Reached 2861 d.
+INFO     Reached 2891 d.
+INFO     Reached 2922 d.
+INFO     Reached 2953 d.
+INFO     Reached 2981 d.
+INFO     Reached 3012 d.
+INFO     Reached 3042 d.
+INFO     Reached 3073 d.
+INFO     Reached 3103 d.
+INFO     Reached 3134 d.
+INFO     Reached 3165 d.
+INFO     Reached 3195 d.
+INFO     Reached 3226 d.
+INFO     Reached 3256 d.
+INFO     Reached 3287 d.
+INFO     Reached 3318 d.
+INFO     Reached 3346 d.
+INFO     Reached 3377 d.
+INFO     Reached 3407 d.
+INFO     Reached 3438 d.
+INFO     Reached 3468 d.
+INFO     Reached 3499 d.
+INFO     Reached 3530 d.
+INFO     Reached 3560 d.
+INFO     Reached 3591 d.
+INFO     Reached 3621 d.
+INFO     Reached 3652 d.
+INFO     Writing keyword migration report to SNARK_CONVERTED_1_DS_ECL2IX.xml.
+REPORT   Keyword migration report:
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         |                File Name                 | Line Number | Keyword  | Section  |       Status       |                 Details                  |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          14 | ENDSCALE | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          26 | START    | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          29 | DISGAS   | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          31 | WATER    | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          33 | OIL      | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          35 | GAS      | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          40 | EQLOPTS  | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          47 | FIELD    | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          49 | DIMENS   | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          52 | TABDIMS  | RUNSPEC  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          57 | INCLUDE  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |           9 | GRIDFILE | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |          12 | GRIDUNIT | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |          15 | MAPUNITS | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |          18 | MAPAXES  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |          21 | PINCH    | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |          24 | FAULTS   | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_GRID.INC            |         178 | THPRESFT | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          62 | GDFILE   | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          65 | INCLUDE  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PERMX.GRDECL   |          11 | PERMX    | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          68 | INCLUDE  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PERMY.GRDECL   |          11 | PERMY    | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          71 | INCLUDE  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PERMZ.GRDECL   |          11 | PERMZ    | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          74 | INCLUDE  | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PORO.GRDECL    |          11 | PORO     | GRID     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          81 | EDITNNC  | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         363 | INCLUDE  | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |           9 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |          20 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |          38 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |          49 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |          74 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |          85 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |         110 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |         121 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |         139 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_MOD_EDIT.INC        |         149 | EQUALS   | EDIT     | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         368 | INCLUDE  | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |           9 | ROCKOPTS | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          12 | ROCK     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          15 | PVTW     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          18 | PVTO     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          56 | PVDG     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          73 | DENSITY  | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          76 | INCLUDE  | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PROPS.GRDECL   |          13 | SWCR     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          81 | SWOF     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          94 | SGOF     | PROPS    | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         375 | INCLUDE  | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_SATNUM.GRDECL  |          11 | SATNUM   | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         378 | INCLUDE  | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PVTNUM.GRDECL  |          11 | PVTNUM   | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         381 | INCLUDE  | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_ROCKNUM.GRDECL |          11 | ROCKNUM  | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         384 | INCLUDE  | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_EQLNUM.GRDECL  |          11 | EQLNUM   | REGIONS  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         391 | INCLUDE  | SOLUTION | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |           9 | EQUIL    | SOLUTION | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          12 | RSVD     | SOLUTION | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          22 | AQUFETP  | SOLUTION | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          26 | AQUANCON | SOLUTION | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         394 | SUMMARY  | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         396 | WSTAT    | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         399 | WWGR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         402 | GWGR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         405 | FWGR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         407 | WWCT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         410 | GWCT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         413 | FWCT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         415 | FRV      | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         417 | WTHP     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         420 | TIMESTEP | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         422 | FRS      | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         424 | WVPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         427 | GVPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         430 | FVPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         432 | WVPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         435 | GVPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         438 | FVPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         440 | WVIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         443 | GVIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         446 | FVIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         448 | WVIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         451 | GVIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         454 | FVIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         456 | WPI      | SUMMARY  | FULLY_MIGRATED     | WPI has been migrated to: WPIO+WPIG+WPIW |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         459 | WWPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         462 | GWPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         465 | FWPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         467 | WOPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         470 | GOPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         473 | FOPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         475 | WGPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         478 | GGPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         481 | FGPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         483 | WEPR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         486 | WWPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         489 | GWPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         492 | FWPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         494 | WOPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         497 | GOPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         500 | FOPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         502 | WGPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         505 | GGPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         508 | FGPT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         510 | FPPW     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         512 | FPPO     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         514 | FPPG     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         525 | WBP      | SUMMARY  | FULLY_MIGRATED     | WBP has been migrated to: WBPC_1         |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         528 | FPR      | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         530 | FWIP     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         532 | FOIPG    | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         534 | FGIPL    | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         536 | FOIP     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         538 | FOIPL    | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         540 | FGIP     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         542 | FGIPG    | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         544 | WWIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         547 | GWIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         550 | FWIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         552 | WOIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         555 | GOIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         558 | FOIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         560 | WGIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         563 | GGIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         566 | FGIR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         568 | WWIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         571 | GWIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         574 | FWIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         576 | WOIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         579 | GOIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         582 | FOIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         584 | WGIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         587 | GGIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         590 | FGIT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         592 | WGOR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         595 | GGOR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         598 | FGOR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         600 | WBHP     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         603 | FAQR     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         605 | FAQT     | SUMMARY  | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         609 | INCLUDE  | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          26 | WLIST    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          33 | COMPDAT  | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          64 | GRUPTREE | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          70 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          78 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          82 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          90 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          94 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         102 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         106 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         114 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         118 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         126 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         130 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         138 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         142 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         150 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         154 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         162 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         166 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         174 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         178 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         186 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         190 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         198 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         202 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         210 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         214 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         222 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         226 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         234 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         238 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         246 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         250 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         258 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         262 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         270 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         274 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         282 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         286 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         294 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         298 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         306 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         310 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         318 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         322 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         330 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         334 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         342 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         346 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         354 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         358 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         366 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         370 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         378 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         382 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         390 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         394 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         402 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         406 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         414 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         418 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         426 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         430 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         438 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         442 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         450 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         454 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         462 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         466 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         474 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         478 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         486 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         490 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         498 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         502 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         510 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         514 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         522 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         526 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         534 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         538 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         546 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         550 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         558 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         562 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         570 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         574 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         582 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         586 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         594 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         598 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         606 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         610 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         618 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         622 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         630 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         634 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         642 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         646 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         654 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         658 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         666 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         670 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         678 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         682 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         690 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         694 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         702 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         706 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         714 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         718 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         726 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         730 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         738 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         742 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         750 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         754 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         762 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         766 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         774 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         778 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         786 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         790 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         798 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         802 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         810 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         814 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         822 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         826 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         834 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         838 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         846 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         850 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         858 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         862 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         870 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         874 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         882 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         886 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         894 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         898 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         906 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         910 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         918 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         922 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         930 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         934 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         942 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         946 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         954 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         958 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         966 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         970 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         978 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         982 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         990 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |         994 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1002 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1006 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1014 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1018 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1026 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1030 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1038 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1042 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1050 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1054 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1062 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1066 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1074 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1078 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1086 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1090 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1098 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1102 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1110 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1114 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1122 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1126 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1134 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1138 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1146 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1150 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1158 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1162 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1170 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1174 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1182 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1186 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1194 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1198 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1206 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1210 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1218 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1222 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1230 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1234 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1242 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1246 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1254 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1258 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1266 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1270 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1278 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1282 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1290 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1294 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1302 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1306 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1314 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1318 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1326 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1330 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1338 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1342 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1350 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1354 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1362 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1366 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1374 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1378 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1386 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1390 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1398 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1402 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1410 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1414 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1422 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1426 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1434 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1438 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1446 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1450 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1458 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1462 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1470 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1474 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1482 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1486 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1494 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1498 | WCONHIST | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |        1506 | DATES    | SCHEDULE | FULLY_MIGRATED     |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          48 | RPTRST   | SOLUTION | PARTIALLY_MIGRATED | The following property was not migrated  |
+         |                                          |             |          |          |                    | because it is not implemented by the     |
+         |                                          |             |          |          |                    | simulator: 'FLOWS'.                      |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |           9 | RPTRST   | SCHEDULE | PARTIALLY_MIGRATED | The following property was not migrated  |
+         |                                          |             |          |          |                    | because it is not implemented by the     |
+         |                                          |             |          |          |                    | simulator: 'FLOWS'.                      |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SCH.INC             |          12 | WELSPECS | SCHEDULE | PARTIALLY_MIGRATED | Item 3 (ILocation) and 4 (JLocation)     |
+         |                                          |             |          |          |                    | are not supported.                       |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          37 | PETOPTS  | RUNSPEC  | NOT_MIGRATED       |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          43 | MONITOR  | RUNSPEC  | NOT_MIGRATED       |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          17 | AQUALIST | SOLUTION | NOT_MIGRATED       |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_SOL.INC             |          51 | RPTSOL   | SOLUTION | NOT_MIGRATED       |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         516 | WBP9     | SUMMARY  | NOT_MIGRATED       | Keyword could not be migrated because    |
+         |                                          |             |          |          |                    | it is not supported.                     |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         519 | WBP5     | SUMMARY  | NOT_MIGRATED       | Keyword could not be migrated because    |
+         |                                          |             |          |          |                    | it is not supported.                     |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         522 | WBP4     | SUMMARY  | NOT_MIGRATED       | Keyword could not be migrated because    |
+         |                                          |             |          |          |                    | it is not supported.                     |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |           9 | RUNSPEC  | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          11 | FAULTDIM | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          17 | AQUDIMS  | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          20 | TITLE    | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          23 | WELLDIMS | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          45 | MULTOUT  | RUNSPEC  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          55 | GRID     | GRID     | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          60 | NOECHO   | GRID     | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          77 | ECHO     | GRID     | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |          79 | EDIT     | EDIT     | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         366 | PROPS    | PROPS    | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PROPS.GRDECL   |          11 | NOECHO   | PROPS    | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROP_PROPS.GRDECL   |          34 | ECHO     | PROPS    | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS_PROPS.INC           |          79 | FILLEPS  | PROPS    | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         371 | REGIONS  | REGIONS  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         373 | NOECHO   | REGIONS  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         387 | ECHO     | REGIONS  | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         389 | SOLUTION | SOLUTION | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+         | SNARK_CONVERTED_1_DS.DATA                |         607 | SCHEDULE | SCHEDULE | IGNORED            |                                          |
+         +----------------------------------------------------------------------------------------------------------------------------------------------+
+
+REPORT   Keyword migration summary:
+         +--------------------------+
+         | Fully migrated     | 387 |
+         | Partially migrated | 3   |
+         | Not migrated       | 7   |
+         | Ignored            | 19  |
+         | Total              | 416 |
+         +--------------------------+
+
+INFO     SNARK_CONVERTED_1_DS.afi has been created.
+INFO     Migration complete. Elapsed time 0hrs:0mins:13secs (13secs)
+REPORT   Message summary:
+         +---------------------------+
+         | Message level | Frequency |
+         +---------------------------+
+         | INFO          |       139 |
+         | WARNING       |         5 |
+         | ERROR         |         0 |
+         +---------------------------+
+
+INFO     Run finished normally.

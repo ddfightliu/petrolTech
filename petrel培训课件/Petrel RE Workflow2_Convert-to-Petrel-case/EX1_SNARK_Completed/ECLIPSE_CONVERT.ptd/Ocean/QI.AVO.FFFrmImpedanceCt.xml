@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/66eca1d1-69a9-4996-a0f1-f116f5607c42">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/66eca1d1-69a9-4996-a0f1-f116f5607c42</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+</XmlAutoDataSource>

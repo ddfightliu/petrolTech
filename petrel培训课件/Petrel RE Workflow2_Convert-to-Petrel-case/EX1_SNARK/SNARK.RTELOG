@@ -1,0 +1,8 @@
+INFO 2019-08-17 00:13:38,697 SLB-91WHJM2 Workflow starting task: SNARK
+INFO 2019-08-17 00:13:38,861 SLB-91WHJM2 Submission Command: C:\ecl\2019.1\bin\pc_x86_64\eclipse.exe SNARK
+INFO 2019-08-17 00:13:50,119 SLB-91WHJM2 E100 has finished
+INFO 2019-08-17 00:13:50,134 SLB-91WHJM2 Workflow starting task: SNARK summary conversion
+INFO 2019-08-17 00:13:50,177 SLB-91WHJM2 Creating temp conversion directory convert_20190816161350_34b783a3
+INFO 2019-08-17 00:13:50,177 SLB-91WHJM2 Submission Command: C:\ecl\2019.1\bin\pc_x86_64\ConvertSummaryData2DataBase.exe SNARK.DATA convert_20190816161350_34b783a3
+INFO 2019-08-17 00:13:52,262 SLB-91WHJM2 Conversion has finished
+INFO 2019-08-17 00:13:52,279 SLB-91WHJM2 Removing temp conversion directory convert_20190816161350_34b783a3

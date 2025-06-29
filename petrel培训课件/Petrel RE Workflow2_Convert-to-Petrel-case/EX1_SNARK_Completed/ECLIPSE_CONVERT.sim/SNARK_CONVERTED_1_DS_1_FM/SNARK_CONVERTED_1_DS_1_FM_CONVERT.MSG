@@ -1,0 +1,43 @@
+<ecl2ix>
+  <warning date="" time="">If any conversion fails or does not run, it is recommended to convert, export and run in separate stages to help identify problems</warning>
+  <comment date="" time="">Message file imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_CONVERTED_1_CONVERT.MSG</comment>
+  <message date="" time="">Converting imported case to case SNARK_CONVERTED_1 and Petrel model data</message>
+  <message date="" time="">Converting properties and grid property modifiers from imported deck</message>
+  <message date="" time="">Creating properties : EQLNUM PERMX PERMY PERMZ PORO PVTNUM ROCKNUM SATNUM SWCR</message>
+  <message date="" time="">Creating grid property modifiers for : TRANX TRANY</message>
+  <message date="" time="">Using existing grid from imported case from which this case is converted - from C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_MATCH2_SWCR04_GRID.EGRID</message>
+  <message date="" time="">Converting functions ...</message>
+  <message date="" time="">Fluid system is: BLACK OIL</message>
+  <message date="" time="">Number of PVT tables: 1, while processing keyword TABDIMS (on line 49 of C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_CONVERTED_1.DATA)</message>
+  <warning date="" time="">EQLDIMS keyword not found. Assuming number of EQL regions: 1, while processing keyword EQLDIMS</warning>
+  <message date="" time="">Standard conditions: Standard temperature (absolute) 519.671 degR Standard temperature 60.0008 degF Standard pressure 14.6959 psi</message>
+  <message date="" time="">Converting wells and completions keywords ...</message>
+  <message date="" time="">Converting schedule keywords ...</message>
+  <warning date="" time="">The converted case should be reviewed in the Define Simulation Case dialog before being run.</warning>
+  <warning date="" time="">A folder has been created for the new case - if you do not save the Petrel project, it will become an orphaned case folder.</warning>
+  <comment date="" time="">End of messages imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_CONVERTED_1_CONVERT.MSG</comment>
+  <comment date="" time="">Export : Message file imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_CONVERTED_1_EXPORT.MSG</comment>
+  <message date="" time="">Export : History rate control rules: None of the wells for which an instantaneous rate export mode was selected had 'uptime fraction' observed data available. WEFAC was not exported for any well in the simulation</message>
+  <comment date="" time="">Export : End of messages imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1\SNARK_CONVERTED_1_EXPORT.MSG</comment>
+  <warning date="" time="">Case SNARK_CONVERTED_1 has not been run.</warning>
+  <message date="" time="">The following user keywords were found: 
+RUNSPEC: PETOPTS, EQLOPTS
+EDIT: EDITNNC
+SOLUTION: AQUALIST, AQUFETP, AQUANCON, RPTRST, RPTSOL.</message>
+  <warning date="" time="">Note that user edits will not be generated for user keywords that override keywords without changes.</warning>
+  <warning date="" time="">Keywords ignored during conversion:
+RUNSPEC: FAULTDIM, AQUDIMS, TITLE, WELLDIMS, PETOPTS, MULTOUT
+GRID: NOECHO, ECHO
+PROPS: NOECHO, ECHO, FILLEPS
+REGIONS: NOECHO, ECHO
+SOLUTION: RPTRST, RPTSOL
+SCHEDULE: RPTRST</warning>
+  <warning date="" time="">Keywords not supported for conversion:
+RUNSPEC: PETOPTS, MONITOR
+SOLUTION: AQUALIST, RPTSOL</warning>
+  <message date="" time="">Keywords converted to user edits:
+RUNSPEC: EQLOPTS
+EDIT: EDITNNC
+SOLUTION: AQUFETP, AQUANCON</message>
+  <message date="" time="">Importing Field Management from C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS_1\SNARK_CONVERTED_1_DS_1_ECL2IX_FM.ixf and C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED_1_DS_1\SNARK_CONVERTED_1_DS_1_ECL2IX_IX.ixf</message>
+</ecl2ix>

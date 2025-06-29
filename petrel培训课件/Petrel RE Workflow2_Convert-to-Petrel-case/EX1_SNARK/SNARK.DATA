@@ -1,0 +1,120 @@
+-- Generated [
+-- Format      : ECLIPSE keywords (ASCII)
+-- Exported by : Petrel 2015.6 (64-bit) Schlumberger
+-- User name   : JLiu38
+-- Date        : Monday, September 12 2016 15:25:31
+-- Project     : SNARK_DEMO.pet
+-- Generated ]
+
+RUNSPEC
+
+FAULTDIM                               -- Generated : Petrel
+  137 /
+
+ENDSCALE                               -- Generated : Petrel
+  /
+
+TITLE                                  -- Generated : Petrel
+'SNARK_MATCH2_SWCR04'
+
+WELLDIMS                               -- Generated : Petrel
+  5 8 3 4 /
+
+START                                  -- Generated : Petrel
+  1 JAN 1998 /
+
+DISGAS                                 -- Generated : Petrel
+
+WATER                                  -- Generated : Petrel
+
+OIL                                    -- Generated : Petrel
+
+GAS                                    -- Generated : Petrel
+
+PETOPTS                                -- Generated : Petrel
+INITNNC /
+
+EQLOPTS                                -- Generated : Petrel
+  THPRES /
+
+MONITOR                                -- Generated : Petrel
+
+MULTOUT                                -- Generated : Petrel
+
+FIELD                                  -- Generated : Petrel
+
+DIMENS                                 -- Generated : Petrel
+  24 25 12 /
+
+TABDIMS                                -- Generated : Petrel
+  12* 1 /
+
+AQUDIMS                                -- Generated : Petrel
+  1 1 1 36 1 235 1 1 /
+
+GRID
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_GRID.INC' /
+
+NOECHO                                 -- Generated : Petrel
+
+GDFILE                                 -- Generated : Petrel
+SNARK_MATCH2_SWCR04_GRID.EGRID /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_PERMX.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_PERMY.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_PERMZ.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_PORO.GRDECL' /
+
+
+EDIT
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_EDIT.INC' /
+
+PROPS
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROPS.INC' /
+
+REGIONS
+
+NOECHO                                 -- Generated : Petrel
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_SATNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_PVTNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_ROCKNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_PROP_EQLNUM.GRDECL' /
+
+ECHO                                   -- Generated : Petrel
+
+SOLUTION
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_SOL.INC' /
+
+SUMMARY
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_SUM.INC' /
+
+SCHEDULE
+
+INCLUDE                                -- Generated : Petrel
+'SNARK_MATCH2_SWCR04_SCH.INC' /
+

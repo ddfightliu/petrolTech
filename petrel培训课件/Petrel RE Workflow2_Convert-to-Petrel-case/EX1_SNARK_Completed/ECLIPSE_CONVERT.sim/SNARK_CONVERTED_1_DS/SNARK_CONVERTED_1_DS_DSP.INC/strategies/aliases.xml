@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entityMap>
+  <entity key="1">
+    <entityId>
+      <guid>abdaf5b9-819d-4812-b71c-dd7173272b1e</guid>
+      <name>PROD1</name>
+      <type>WELL</type>
+    </entityId>
+  </entity>
+  <entity key="2">
+    <entityId>
+      <guid>93b3a526-eac2-4579-8292-a6f16478ca16</guid>
+      <name>PROD2</name>
+      <type>WELL</type>
+    </entityId>
+  </entity>
+  <entity key="3">
+    <entityId>
+      <guid>c67d9630-7047-4062-88b5-e5f45fc16fc8</guid>
+      <name>PROD3</name>
+      <type>WELL</type>
+    </entityId>
+  </entity>
+  <entity key="4">
+    <entityId>
+      <guid>7abc70ea-4e6b-4f11-bbd0-4de3180e49c1</guid>
+      <name>PROD4</name>
+      <type>WELL</type>
+    </entityId>
+  </entity>
+  <entity key="5">
+    <entityId>
+      <guid>50653d31-2bb2-4577-9e6e-c7c9de0b873c</guid>
+      <name>PRODUCER</name>
+      <type>WELL</type>
+    </entityId>
+  </entity>
+</entityMap>

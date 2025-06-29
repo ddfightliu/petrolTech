@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no" ?>
+<eclipse>
+
+  <warning date="" time="">Export optimization disabled, as the case has user keywords</warning>
+
+  <message date="" time="">History rate control rules: None of the wells for which an instantaneous rate export mode was selected had 'uptime fraction' observed data available. WEFAC was not exported for any well in the simulation</message>
+
+  <warning date="" time="">The PETOPTS keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The EQLOPTS keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+  <warning date="" time="">The RPTRST keyword was not exported by Petrel as it has been modified by the user.</warning>
+
+</eclipse>

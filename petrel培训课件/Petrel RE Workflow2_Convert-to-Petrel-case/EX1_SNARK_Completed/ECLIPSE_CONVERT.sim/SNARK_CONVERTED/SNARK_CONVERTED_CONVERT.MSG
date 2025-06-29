@@ -1,0 +1,18 @@
+<ecl2ix>
+  <comment date="" time="">Message file imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED\SNARK_CONVERTED_CONVERT.MSG</comment>
+  <message date="" time="">Converting imported case to case SNARK_CONVERTED and Petrel model data</message>
+  <message date="" time="">Converting properties and grid property modifiers from imported deck</message>
+  <message date="" time="">Creating properties : EQLNUM PERMX PERMY PERMZ PORO PVTNUM ROCKNUM SATNUM SWCR</message>
+  <message date="" time="">Creating grid property modifiers for : TRANX TRANY</message>
+  <message date="" time="">Using existing grid from imported case from which this case is converted - from C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED\SNARK_MATCH2_SWCR04_GRID.EGRID</message>
+  <message date="" time="">Converting functions ...</message>
+  <message date="" time="">Fluid system is: BLACK OIL</message>
+  <message date="" time="">Number of PVT tables: 1, while processing keyword TABDIMS (on line 49 of C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED\SNARK_CONVERTED.DATA)</message>
+  <warning date="" time="">EQLDIMS keyword not found. Assuming number of EQL regions: 1, while processing keyword EQLDIMS</warning>
+  <message date="" time="">Standard conditions: Standard temperature (absolute) 519.671 degR Standard temperature 60.0008 degF Standard pressure 14.6959 psi</message>
+  <message date="" time="">Converting wells and completions keywords ...</message>
+  <message date="" time="">Converting schedule keywords ...</message>
+  <warning date="" time="">The converted case should be reviewed in the Define Simulation Case dialog before being run.</warning>
+  <warning date="" time="">A folder has been created for the new case - if you do not save the Petrel project, it will become an orphaned case folder.</warning>
+  <comment date="" time="">End of messages imported from: C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK_CONVERTED\SNARK_CONVERTED_CONVERT.MSG</comment>
+</ecl2ix>

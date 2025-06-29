@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.Shuey2TermRb5 droid="://QI.AVO.Shuey2TermRb5/0030d837-def2-4cf2-9c09-b98fca3ec27b">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2TermRb5/0030d837-def2-4cf2-9c09-b98fca3ec27b</Droid>
+  </QI.AVO.Shuey2TermRb5>
+</XmlAutoDataSource>

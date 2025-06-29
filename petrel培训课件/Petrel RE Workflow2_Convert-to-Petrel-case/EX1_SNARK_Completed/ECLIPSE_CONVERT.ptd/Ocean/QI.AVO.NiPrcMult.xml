@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/7c1eacf0-431b-4d1c-9789-8f396a63a1df">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/7c1eacf0-431b-4d1c-9789-8f396a63a1df</Droid>
+  </QI.AVO.NiPrcMult>
+</XmlAutoDataSource>

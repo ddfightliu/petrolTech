@@ -1,0 +1,23 @@
+######################################
+# IXFVERSION: 2018.2 Petrel
+######################################
+
+MODEL_DEFINITION
+
+ConstantThresholdPressure {
+    SelectedFault=["FAULT1" "FAULT2" "FAULT3"]
+    FaultThresholdPressure=[0 0 0]
+}
+
+Faults {
+    FaultNames=["FAULT1" "FAULT2" "FAULT3"]
+}
+
+
+START
+DATE "1-Jan-1998"
+#TIME 0.0
+
+FaultThresholdPressures {
+}
+

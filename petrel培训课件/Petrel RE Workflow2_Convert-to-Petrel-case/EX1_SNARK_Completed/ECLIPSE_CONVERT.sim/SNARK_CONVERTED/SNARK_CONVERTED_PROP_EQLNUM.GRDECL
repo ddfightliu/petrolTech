@@ -1,0 +1,14 @@
+-- Generated [
+-- Format      : ECLIPSE keywords (grid properties) (ASCII)
+-- Exported by : Petrel 2019.2 Schlumberger
+-- User name   : JLiu38
+-- Date        : Saturday, August 17 2019 00:15:23
+-- Project     : ECLIPSE_CONVERT.pet
+-- Grid        : SNARK.EGRID
+-- Unit system : ECLIPSE-Field
+-- Generated ]
+
+EQLNUM                                 -- Generated : Petrel
+-- Property name in Petrel : EQLNUM
+  7200*1 /
+

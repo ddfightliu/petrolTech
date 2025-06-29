@@ -1,0 +1,4 @@
+<config>
+  <generate_conversion_report value="1" />
+  <fmstd_gas_verbosity freq="REPORT_TIME" value="0" />
+</config>

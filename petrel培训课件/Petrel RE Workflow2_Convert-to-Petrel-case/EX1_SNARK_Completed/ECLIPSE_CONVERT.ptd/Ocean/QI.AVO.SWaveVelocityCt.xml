@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.SWaveVelocityCt droid="://QI.AVO.SWaveVelocityCt/d7a0b5f3-c53a-4853-8f40-8993d444c913">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.SWaveVelocityCt/d7a0b5f3-c53a-4853-8f40-8993d444c913</Droid>
+  </QI.AVO.SWaveVelocityCt>
+</XmlAutoDataSource>

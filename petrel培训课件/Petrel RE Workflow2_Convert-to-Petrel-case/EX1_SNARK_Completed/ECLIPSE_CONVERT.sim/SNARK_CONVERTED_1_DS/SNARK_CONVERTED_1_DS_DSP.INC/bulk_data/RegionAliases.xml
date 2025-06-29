@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegionAliasMap>
+  <fluid>
+    <alias>
+      <key>1</key>
+      <name>PVTNUM_1</name>
+    </alias>
+  </fluid>
+  <rock>
+    <alias>
+      <key>1</key>
+      <name>Rock compaction 1</name>
+    </alias>
+  </rock>
+  <saturation>
+    <alias>
+      <key>1</key>
+      <name>Saturation function 1</name>
+    </alias>
+  </saturation>
+  <equilibration>
+    <alias>
+      <key>1</key>
+      <name>EQLNUM_1</name>
+    </alias>
+  </equilibration>
+  <region>
+    <EQLNUM>
+      <alias>
+        <key>1</key>
+        <name>Region 1</name>
+      </alias>
+    </EQLNUM>
+  </region>
+  <region>
+    <PVTNUM>
+      <alias>
+        <key>1</key>
+        <name>Region 1</name>
+      </alias>
+    </PVTNUM>
+  </region>
+  <region>
+    <ROCKNUM>
+      <alias>
+        <key>1</key>
+        <name>Region 1</name>
+      </alias>
+    </ROCKNUM>
+  </region>
+  <region>
+    <SATNUM>
+      <alias>
+        <key>1</key>
+        <name>Region 1</name>
+      </alias>
+    </SATNUM>
+  </region>
+</RegionAliasMap>

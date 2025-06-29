@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/f52c876f-bb8d-4adf-bf82-b1cc141fc1cf">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/f52c876f-bb8d-4adf-bf82-b1cc141fc1cf</Droid>
+  </QI.AVO.ShearModulusCt>
+</XmlAutoDataSource>

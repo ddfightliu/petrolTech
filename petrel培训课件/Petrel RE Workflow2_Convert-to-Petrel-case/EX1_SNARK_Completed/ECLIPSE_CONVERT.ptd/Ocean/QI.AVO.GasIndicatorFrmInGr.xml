@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/6cbb4cf4-b657-42ad-82a7-d837f8e10212">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/6cbb4cf4-b657-42ad-82a7-d837f8e10212</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+</XmlAutoDataSource>

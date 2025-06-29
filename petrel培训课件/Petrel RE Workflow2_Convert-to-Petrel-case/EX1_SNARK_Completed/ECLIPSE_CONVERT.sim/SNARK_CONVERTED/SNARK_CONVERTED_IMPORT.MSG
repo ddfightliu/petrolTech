@@ -1,0 +1,1261 @@
+<eclipse>
+<warning order="2" sequence="812" section="RUNSPEC" keyword="FAULTDIM" state="FULLY_MIGRATED" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="11">
+</warning>
+
+<warning order="3" sequence="811" section="RUNSPEC" keyword="ENDSCALE" state="FULLY_MIGRATED" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="14">
+</warning>
+
+<warning order="4" sequence="394" section="RUNSPEC" keyword="TITLE" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="17">
+</warning>
+
+<warning order="5" sequence="566" section="RUNSPEC" keyword="WELLDIMS" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="20">
+Well geometry is converted and exported.
+</warning>
+
+<warning order="6" sequence="562" section="RUNSPEC" keyword="START" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="23">
+Converted in the SCHEDULE section conversion.
+</warning>
+
+<warning order="7" sequence="395" section="RUNSPEC" keyword="DISGAS" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="26">
+Inferred from fluid model
+</warning>
+
+<warning order="8" sequence="396" section="RUNSPEC" keyword="WATER" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="28">
+Inferred from fluid model
+</warning>
+
+<warning order="9" sequence="397" section="RUNSPEC" keyword="OIL" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="30">
+Inferred from fluid model
+</warning>
+
+<warning order="10" sequence="398" section="RUNSPEC" keyword="GAS" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="32">
+Inferred from fluid model
+</warning>
+
+<warning order="11" sequence="10" section="RUNSPEC" keyword="PETOPTS" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="34">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="12" sequence="11" section="RUNSPEC" keyword="EQLOPTS" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="37">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="13" sequence="12" section="RUNSPEC" keyword="MONITOR" state="FULLY_MIGRATED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="40">
+</warning>
+
+<warning order="14" sequence="13" section="RUNSPEC" keyword="MULTOUT" state="FULLY_MIGRATED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="42">
+</warning>
+
+<warning order="15" sequence="393" section="RUNSPEC" keyword="FIELD" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="44">
+</warning>
+
+<warning order="16" sequence="401" section="RUNSPEC" keyword="DIMENS" state="FULLY_MIGRATED" context="main" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="46">
+Inferred from grid
+</warning>
+
+<warning order="17" sequence="810" section="RUNSPEC" keyword="TABDIMS" state="FULLY_MIGRATED" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="49">
+</warning>
+
+<warning order="18" sequence="809" section="RUNSPEC" keyword="AQUDIMS" state="FULLY_MIGRATED" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="52">
+</warning>
+
+<warning order="20" sequence="19" section="GRID" keyword="INIT" state="FULLY_MIGRATED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="9">
+</warning>
+
+<warning order="21" sequence="403" section="GRID" keyword="GRIDFILE" state="IGNORED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="11">
+Not needed as grid is exported by Petrel
+</warning>
+
+<warning order="22" sequence="404" section="GRID" keyword="GRIDUNIT" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="14">
+Inferred from grid
+</warning>
+
+<warning order="23" sequence="405" section="GRID" keyword="MAPUNITS" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="17">
+Inferred from grid
+</warning>
+
+<warning order="24" sequence="406" section="GRID" keyword="MAPAXES" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="20">
+Inferred from grid
+</warning>
+
+<warning order="25" sequence="407" section="GRID" keyword="PINCH" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="23">
+</warning>
+
+<warning order="26" sequence="408" section="GRID" keyword="FAULTS" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="26">
+Processed when the grid was imported
+</warning>
+
+<warning order="27" sequence="428" section="GRID" keyword="THPRESFT" state="FULLY_MIGRATED" context="fault properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_GRID.INC" line="180">
+</warning>
+
+<warning order="28" sequence="27" section="GRID" keyword="NOECHO" state="IGNORED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="60">
+</warning>
+
+<warning order="29" sequence="402" section="GRID" keyword="GDFILE" state="FULLY_MIGRATED" context="grid" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="62">
+</warning>
+
+<warning order="30" sequence="409" section="GRID" keyword="PERMX" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PERMX.GRDECL" line="11">
+</warning>
+
+<warning order="31" sequence="410" section="GRID" keyword="PERMY" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PERMY.GRDECL" line="11">
+</warning>
+
+<warning order="32" sequence="411" section="GRID" keyword="PERMZ" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PERMZ.GRDECL" line="11">
+</warning>
+
+<warning order="33" sequence="412" section="GRID" keyword="PORO" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PORO.GRDECL" line="11">
+</warning>
+
+<warning order="35" sequence="413" section="EDIT" keyword="MULTIPLY" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_EDIT.INC" line="9">
+</warning>
+
+<warning order="36" sequence="35" section="EDIT" keyword="EDITNNC" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_EDIT.INC" line="129">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="38" sequence="436" section="PROPS" keyword="ROCKOPTS" state="FULLY_MIGRATED" context="scal" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="9">
+</warning>
+
+<warning order="39" sequence="437" section="PROPS" keyword="ROCK" state="FULLY_MIGRATED" context="scal" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="12">
+</warning>
+
+<warning order="40" sequence="429" section="PROPS" keyword="PVTW" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="15">
+</warning>
+
+<warning order="41" sequence="430" section="PROPS" keyword="PVTO" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="18">
+</warning>
+
+<warning order="42" sequence="431" section="PROPS" keyword="PVDG" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="56">
+</warning>
+
+<warning order="43" sequence="432" section="PROPS" keyword="DENSITY" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="73">
+</warning>
+
+<warning order="44" sequence="43" section="PROPS" keyword="NOECHO" state="IGNORED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PROPS.GRDECL" line="11">
+</warning>
+
+<warning order="45" sequence="414" section="PROPS" keyword="SWCR" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PROPS.GRDECL" line="13">
+</warning>
+
+<warning order="46" sequence="45" section="PROPS" keyword="ECHO" state="IGNORED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PROPS.GRDECL" line="36">
+</warning>
+
+<warning order="47" sequence="435" section="PROPS" keyword="FILLEPS" state="FULLY_MIGRATED" context="scal" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="79">
+</warning>
+
+<warning order="48" sequence="438" section="PROPS" keyword="SWOF" state="FULLY_MIGRATED" context="scal" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="81">
+</warning>
+
+<warning order="49" sequence="439" section="PROPS" keyword="SGOF" state="FULLY_MIGRATED" context="scal" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROPS.INC" line="94">
+</warning>
+
+<warning order="51" sequence="50" section="REGIONS" keyword="NOECHO" state="IGNORED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="90">
+</warning>
+
+<warning order="52" sequence="415" section="REGIONS" keyword="SATNUM" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_SATNUM.GRDECL" line="11">
+</warning>
+
+<warning order="53" sequence="416" section="REGIONS" keyword="PVTNUM" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_PVTNUM.GRDECL" line="11">
+</warning>
+
+<warning order="54" sequence="417" section="REGIONS" keyword="ROCKNUM" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_ROCKNUM.GRDECL" line="11">
+</warning>
+
+<warning order="55" sequence="418" section="REGIONS" keyword="EQLNUM" state="FULLY_MIGRATED" context="grid properties" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_PROP_EQLNUM.GRDECL" line="11">
+</warning>
+
+<warning order="56" sequence="55" section="REGIONS" keyword="ECHO" state="IGNORED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK.DATA" line="104">
+</warning>
+
+<warning order="58" sequence="433" section="SOLUTION" keyword="EQUIL" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="9">
+</warning>
+
+<warning order="59" sequence="434" section="SOLUTION" keyword="RSVD" state="FULLY_MIGRATED" context="pvt" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="12">
+</warning>
+
+<warning order="60" sequence="59" section="SOLUTION" keyword="AQUALIST" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="17">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="61" sequence="60" section="SOLUTION" keyword="AQUFETP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="22">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="62" sequence="61" section="SOLUTION" keyword="AQUANCON" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="26">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="63" sequence="62" section="SOLUTION" keyword="RPTRST" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="48">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="64" sequence="63" section="SOLUTION" keyword="RPTSOL" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SOL.INC" line="51">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="66" sequence="65" section="SUMMARY" keyword="WSTAT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="9">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="67" sequence="66" section="SUMMARY" keyword="WWGR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="12">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="68" sequence="67" section="SUMMARY" keyword="GWGR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="15">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="69" sequence="68" section="SUMMARY" keyword="FWGR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="18">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="70" sequence="69" section="SUMMARY" keyword="WWCT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="20">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="71" sequence="70" section="SUMMARY" keyword="GWCT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="23">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="72" sequence="71" section="SUMMARY" keyword="FWCT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="26">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="73" sequence="72" section="SUMMARY" keyword="FRV" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="28">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="74" sequence="73" section="SUMMARY" keyword="WTHP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="30">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="75" sequence="74" section="SUMMARY" keyword="TIMESTEP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="33">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="76" sequence="75" section="SUMMARY" keyword="FRS" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="35">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="77" sequence="76" section="SUMMARY" keyword="WVPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="37">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="78" sequence="77" section="SUMMARY" keyword="GVPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="40">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="79" sequence="78" section="SUMMARY" keyword="FVPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="43">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="80" sequence="79" section="SUMMARY" keyword="WVPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="45">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="81" sequence="80" section="SUMMARY" keyword="GVPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="48">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="82" sequence="81" section="SUMMARY" keyword="FVPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="51">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="83" sequence="82" section="SUMMARY" keyword="WVIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="53">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="84" sequence="83" section="SUMMARY" keyword="GVIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="56">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="85" sequence="84" section="SUMMARY" keyword="FVIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="59">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="86" sequence="85" section="SUMMARY" keyword="WVIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="61">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="87" sequence="86" section="SUMMARY" keyword="GVIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="64">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="88" sequence="87" section="SUMMARY" keyword="FVIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="67">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="89" sequence="88" section="SUMMARY" keyword="WPI" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="69">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="90" sequence="89" section="SUMMARY" keyword="WWPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="72">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="91" sequence="90" section="SUMMARY" keyword="GWPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="75">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="92" sequence="91" section="SUMMARY" keyword="FWPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="78">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="93" sequence="92" section="SUMMARY" keyword="WOPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="80">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="94" sequence="93" section="SUMMARY" keyword="GOPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="83">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="95" sequence="94" section="SUMMARY" keyword="FOPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="86">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="96" sequence="95" section="SUMMARY" keyword="WGPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="88">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="97" sequence="96" section="SUMMARY" keyword="GGPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="91">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="98" sequence="97" section="SUMMARY" keyword="FGPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="94">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="99" sequence="98" section="SUMMARY" keyword="WEPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="96">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="100" sequence="99" section="SUMMARY" keyword="WWPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="99">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="101" sequence="100" section="SUMMARY" keyword="GWPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="102">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="102" sequence="101" section="SUMMARY" keyword="FWPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="105">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="103" sequence="102" section="SUMMARY" keyword="WOPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="107">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="104" sequence="103" section="SUMMARY" keyword="GOPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="110">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="105" sequence="104" section="SUMMARY" keyword="FOPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="113">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="106" sequence="105" section="SUMMARY" keyword="WGPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="115">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="107" sequence="106" section="SUMMARY" keyword="GGPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="118">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="108" sequence="107" section="SUMMARY" keyword="FGPT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="121">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="109" sequence="108" section="SUMMARY" keyword="FPPW" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="123">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="110" sequence="109" section="SUMMARY" keyword="FPPO" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="125">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="111" sequence="110" section="SUMMARY" keyword="FPPG" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="127">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="112" sequence="111" section="SUMMARY" keyword="WBP9" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="129">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="113" sequence="112" section="SUMMARY" keyword="WBP5" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="132">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="114" sequence="113" section="SUMMARY" keyword="WBP4" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="135">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="115" sequence="114" section="SUMMARY" keyword="WBP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="138">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="116" sequence="115" section="SUMMARY" keyword="FPR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="141">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="117" sequence="116" section="SUMMARY" keyword="FWIP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="143">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="118" sequence="117" section="SUMMARY" keyword="FOIPG" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="145">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="119" sequence="118" section="SUMMARY" keyword="FGIPL" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="147">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="120" sequence="119" section="SUMMARY" keyword="FOIP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="149">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="121" sequence="120" section="SUMMARY" keyword="FOIPL" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="151">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="122" sequence="121" section="SUMMARY" keyword="FGIP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="153">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="123" sequence="122" section="SUMMARY" keyword="FGIPG" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="155">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="124" sequence="123" section="SUMMARY" keyword="WWIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="157">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="125" sequence="124" section="SUMMARY" keyword="GWIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="160">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="126" sequence="125" section="SUMMARY" keyword="FWIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="163">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="127" sequence="126" section="SUMMARY" keyword="WOIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="165">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="128" sequence="127" section="SUMMARY" keyword="GOIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="168">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="129" sequence="128" section="SUMMARY" keyword="FOIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="171">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="130" sequence="129" section="SUMMARY" keyword="WGIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="173">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="131" sequence="130" section="SUMMARY" keyword="GGIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="176">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="132" sequence="131" section="SUMMARY" keyword="FGIR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="179">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="133" sequence="132" section="SUMMARY" keyword="WWIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="181">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="134" sequence="133" section="SUMMARY" keyword="GWIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="184">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="135" sequence="134" section="SUMMARY" keyword="FWIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="187">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="136" sequence="135" section="SUMMARY" keyword="WOIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="189">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="137" sequence="136" section="SUMMARY" keyword="GOIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="192">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="138" sequence="137" section="SUMMARY" keyword="FOIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="195">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="139" sequence="138" section="SUMMARY" keyword="WGIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="197">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="140" sequence="139" section="SUMMARY" keyword="GGIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="200">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="141" sequence="140" section="SUMMARY" keyword="FGIT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="203">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="142" sequence="141" section="SUMMARY" keyword="WGOR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="205">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="143" sequence="142" section="SUMMARY" keyword="GGOR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="208">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="144" sequence="143" section="SUMMARY" keyword="FGOR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="211">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="145" sequence="144" section="SUMMARY" keyword="WBHP" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="213">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="146" sequence="145" section="SUMMARY" keyword="FAQR" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="216">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="147" sequence="146" section="SUMMARY" keyword="FAQT" state="UNDETERMINED" context="init" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SUM.INC" line="218">
+Left in the deck as a user keyword
+</warning>
+
+<warning order="149" sequence="563" section="SCHEDULE" keyword="RPTSCHED" state="IGNORED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="9">
+Requires re-selecting results in the Define Simulation Case dialog
+</warning>
+
+<warning order="150" sequence="564" section="SCHEDULE" keyword="RPTRST" state="CLONED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="12">
+Keyword information copied to the schedule keyword rules in Development strategies.
+</warning>
+
+<warning order="151" sequence="440" section="SCHEDULE" keyword="WELSPECS" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="20">
+</warning>
+
+<warning order="152" sequence="441" section="SCHEDULE" keyword="COMPDAT" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="34">
+</warning>
+
+<warning order="153" sequence="567" section="SCHEDULE" keyword="GRUPTREE" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="65">
+</warning>
+
+<warning order="154" sequence="568" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="70">
+</warning>
+
+<warning order="155" sequence="442" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="78">
+</warning>
+
+<warning order="156" sequence="570" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="82">
+</warning>
+
+<warning order="157" sequence="443" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="90">
+</warning>
+
+<warning order="158" sequence="572" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="94">
+</warning>
+
+<warning order="159" sequence="444" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="102">
+</warning>
+
+<warning order="160" sequence="574" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="106">
+</warning>
+
+<warning order="161" sequence="445" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="114">
+</warning>
+
+<warning order="162" sequence="576" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="118">
+</warning>
+
+<warning order="163" sequence="446" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="126">
+</warning>
+
+<warning order="164" sequence="578" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="130">
+</warning>
+
+<warning order="165" sequence="447" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="138">
+</warning>
+
+<warning order="166" sequence="580" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="142">
+</warning>
+
+<warning order="167" sequence="448" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="150">
+</warning>
+
+<warning order="168" sequence="582" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="154">
+</warning>
+
+<warning order="169" sequence="449" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="162">
+</warning>
+
+<warning order="170" sequence="584" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="166">
+</warning>
+
+<warning order="171" sequence="450" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="174">
+</warning>
+
+<warning order="172" sequence="586" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="178">
+</warning>
+
+<warning order="173" sequence="451" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="186">
+</warning>
+
+<warning order="174" sequence="588" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="190">
+</warning>
+
+<warning order="175" sequence="452" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="198">
+</warning>
+
+<warning order="176" sequence="590" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="202">
+</warning>
+
+<warning order="177" sequence="453" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="210">
+</warning>
+
+<warning order="178" sequence="592" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="214">
+</warning>
+
+<warning order="179" sequence="454" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="222">
+</warning>
+
+<warning order="180" sequence="594" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="226">
+</warning>
+
+<warning order="181" sequence="455" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="234">
+</warning>
+
+<warning order="182" sequence="596" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="238">
+</warning>
+
+<warning order="183" sequence="456" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="246">
+</warning>
+
+<warning order="184" sequence="598" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="250">
+</warning>
+
+<warning order="185" sequence="457" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="258">
+</warning>
+
+<warning order="186" sequence="600" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="262">
+</warning>
+
+<warning order="187" sequence="458" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="270">
+</warning>
+
+<warning order="188" sequence="602" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="274">
+</warning>
+
+<warning order="189" sequence="459" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="282">
+</warning>
+
+<warning order="190" sequence="604" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="286">
+</warning>
+
+<warning order="191" sequence="460" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="294">
+</warning>
+
+<warning order="192" sequence="606" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="298">
+</warning>
+
+<warning order="193" sequence="461" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="306">
+</warning>
+
+<warning order="194" sequence="608" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="310">
+</warning>
+
+<warning order="195" sequence="462" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="318">
+</warning>
+
+<warning order="196" sequence="610" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="322">
+</warning>
+
+<warning order="197" sequence="463" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="330">
+</warning>
+
+<warning order="198" sequence="612" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="334">
+</warning>
+
+<warning order="199" sequence="464" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="342">
+</warning>
+
+<warning order="200" sequence="614" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="346">
+</warning>
+
+<warning order="201" sequence="465" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="354">
+</warning>
+
+<warning order="202" sequence="616" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="358">
+</warning>
+
+<warning order="203" sequence="466" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="366">
+</warning>
+
+<warning order="204" sequence="618" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="370">
+</warning>
+
+<warning order="205" sequence="467" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="378">
+</warning>
+
+<warning order="206" sequence="620" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="382">
+</warning>
+
+<warning order="207" sequence="468" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="390">
+</warning>
+
+<warning order="208" sequence="622" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="394">
+</warning>
+
+<warning order="209" sequence="469" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="402">
+</warning>
+
+<warning order="210" sequence="624" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="406">
+</warning>
+
+<warning order="211" sequence="470" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="414">
+</warning>
+
+<warning order="212" sequence="626" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="418">
+</warning>
+
+<warning order="213" sequence="471" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="426">
+</warning>
+
+<warning order="214" sequence="628" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="430">
+</warning>
+
+<warning order="215" sequence="472" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="438">
+</warning>
+
+<warning order="216" sequence="630" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="442">
+</warning>
+
+<warning order="217" sequence="473" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="450">
+</warning>
+
+<warning order="218" sequence="632" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="454">
+</warning>
+
+<warning order="219" sequence="474" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="462">
+</warning>
+
+<warning order="220" sequence="634" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="466">
+</warning>
+
+<warning order="221" sequence="475" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="474">
+</warning>
+
+<warning order="222" sequence="636" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="478">
+</warning>
+
+<warning order="223" sequence="476" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="486">
+</warning>
+
+<warning order="224" sequence="638" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="490">
+</warning>
+
+<warning order="225" sequence="477" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="498">
+</warning>
+
+<warning order="226" sequence="640" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="502">
+</warning>
+
+<warning order="227" sequence="478" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="510">
+</warning>
+
+<warning order="228" sequence="642" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="514">
+</warning>
+
+<warning order="229" sequence="479" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="522">
+</warning>
+
+<warning order="230" sequence="644" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="526">
+</warning>
+
+<warning order="231" sequence="480" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="534">
+</warning>
+
+<warning order="232" sequence="646" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="538">
+</warning>
+
+<warning order="233" sequence="481" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="546">
+</warning>
+
+<warning order="234" sequence="648" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="550">
+</warning>
+
+<warning order="235" sequence="482" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="558">
+</warning>
+
+<warning order="236" sequence="650" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="562">
+</warning>
+
+<warning order="237" sequence="483" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="570">
+</warning>
+
+<warning order="238" sequence="652" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="574">
+</warning>
+
+<warning order="239" sequence="484" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="582">
+</warning>
+
+<warning order="240" sequence="654" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="586">
+</warning>
+
+<warning order="241" sequence="485" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="594">
+</warning>
+
+<warning order="242" sequence="656" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="598">
+</warning>
+
+<warning order="243" sequence="486" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="606">
+</warning>
+
+<warning order="244" sequence="658" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="610">
+</warning>
+
+<warning order="245" sequence="487" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="618">
+</warning>
+
+<warning order="246" sequence="660" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="622">
+</warning>
+
+<warning order="247" sequence="488" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="630">
+</warning>
+
+<warning order="248" sequence="662" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="634">
+</warning>
+
+<warning order="249" sequence="489" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="642">
+</warning>
+
+<warning order="250" sequence="664" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="646">
+</warning>
+
+<warning order="251" sequence="490" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="654">
+</warning>
+
+<warning order="252" sequence="666" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="658">
+</warning>
+
+<warning order="253" sequence="491" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="666">
+</warning>
+
+<warning order="254" sequence="668" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="670">
+</warning>
+
+<warning order="255" sequence="492" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="678">
+</warning>
+
+<warning order="256" sequence="670" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="682">
+</warning>
+
+<warning order="257" sequence="493" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="690">
+</warning>
+
+<warning order="258" sequence="672" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="694">
+</warning>
+
+<warning order="259" sequence="494" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="702">
+</warning>
+
+<warning order="260" sequence="674" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="706">
+</warning>
+
+<warning order="261" sequence="495" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="714">
+</warning>
+
+<warning order="262" sequence="676" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="718">
+</warning>
+
+<warning order="263" sequence="496" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="726">
+</warning>
+
+<warning order="264" sequence="678" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="730">
+</warning>
+
+<warning order="265" sequence="497" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="738">
+</warning>
+
+<warning order="266" sequence="680" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="742">
+</warning>
+
+<warning order="267" sequence="498" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="750">
+</warning>
+
+<warning order="268" sequence="682" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="754">
+</warning>
+
+<warning order="269" sequence="499" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="762">
+</warning>
+
+<warning order="270" sequence="684" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="766">
+</warning>
+
+<warning order="271" sequence="500" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="774">
+</warning>
+
+<warning order="272" sequence="686" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="778">
+</warning>
+
+<warning order="273" sequence="501" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="786">
+</warning>
+
+<warning order="274" sequence="688" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="790">
+</warning>
+
+<warning order="275" sequence="502" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="798">
+</warning>
+
+<warning order="276" sequence="690" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="802">
+</warning>
+
+<warning order="277" sequence="503" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="810">
+</warning>
+
+<warning order="278" sequence="692" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="814">
+</warning>
+
+<warning order="279" sequence="504" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="822">
+</warning>
+
+<warning order="280" sequence="694" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="826">
+</warning>
+
+<warning order="281" sequence="505" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="834">
+</warning>
+
+<warning order="282" sequence="696" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="838">
+</warning>
+
+<warning order="283" sequence="506" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="846">
+</warning>
+
+<warning order="284" sequence="698" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="850">
+</warning>
+
+<warning order="285" sequence="507" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="858">
+</warning>
+
+<warning order="286" sequence="700" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="862">
+</warning>
+
+<warning order="287" sequence="508" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="870">
+</warning>
+
+<warning order="288" sequence="702" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="874">
+</warning>
+
+<warning order="289" sequence="509" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="882">
+</warning>
+
+<warning order="290" sequence="704" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="886">
+</warning>
+
+<warning order="291" sequence="510" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="894">
+</warning>
+
+<warning order="292" sequence="706" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="898">
+</warning>
+
+<warning order="293" sequence="511" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="906">
+</warning>
+
+<warning order="294" sequence="708" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="910">
+</warning>
+
+<warning order="295" sequence="512" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="918">
+</warning>
+
+<warning order="296" sequence="710" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="922">
+</warning>
+
+<warning order="297" sequence="513" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="930">
+</warning>
+
+<warning order="298" sequence="712" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="934">
+</warning>
+
+<warning order="299" sequence="514" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="942">
+</warning>
+
+<warning order="300" sequence="714" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="946">
+</warning>
+
+<warning order="301" sequence="515" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="954">
+</warning>
+
+<warning order="302" sequence="716" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="958">
+</warning>
+
+<warning order="303" sequence="516" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="966">
+</warning>
+
+<warning order="304" sequence="718" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="970">
+</warning>
+
+<warning order="305" sequence="517" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="978">
+</warning>
+
+<warning order="306" sequence="720" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="982">
+</warning>
+
+<warning order="307" sequence="518" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="990">
+</warning>
+
+<warning order="308" sequence="722" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="994">
+</warning>
+
+<warning order="309" sequence="519" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1002">
+</warning>
+
+<warning order="310" sequence="724" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1006">
+</warning>
+
+<warning order="311" sequence="520" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1014">
+</warning>
+
+<warning order="312" sequence="726" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1018">
+</warning>
+
+<warning order="313" sequence="521" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1026">
+</warning>
+
+<warning order="314" sequence="728" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1030">
+</warning>
+
+<warning order="315" sequence="522" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1038">
+</warning>
+
+<warning order="316" sequence="730" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1042">
+</warning>
+
+<warning order="317" sequence="523" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1050">
+</warning>
+
+<warning order="318" sequence="732" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1054">
+</warning>
+
+<warning order="319" sequence="524" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1062">
+</warning>
+
+<warning order="320" sequence="734" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1066">
+</warning>
+
+<warning order="321" sequence="525" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1074">
+</warning>
+
+<warning order="322" sequence="736" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1078">
+</warning>
+
+<warning order="323" sequence="526" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1086">
+</warning>
+
+<warning order="324" sequence="738" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1090">
+</warning>
+
+<warning order="325" sequence="527" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1098">
+</warning>
+
+<warning order="326" sequence="740" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1102">
+</warning>
+
+<warning order="327" sequence="528" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1110">
+</warning>
+
+<warning order="328" sequence="742" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1114">
+</warning>
+
+<warning order="329" sequence="529" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1122">
+</warning>
+
+<warning order="330" sequence="744" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1126">
+</warning>
+
+<warning order="331" sequence="530" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1134">
+</warning>
+
+<warning order="332" sequence="746" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1138">
+</warning>
+
+<warning order="333" sequence="531" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1146">
+</warning>
+
+<warning order="334" sequence="748" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1150">
+</warning>
+
+<warning order="335" sequence="532" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1158">
+</warning>
+
+<warning order="336" sequence="750" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1162">
+</warning>
+
+<warning order="337" sequence="533" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1170">
+</warning>
+
+<warning order="338" sequence="752" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1174">
+</warning>
+
+<warning order="339" sequence="534" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1182">
+</warning>
+
+<warning order="340" sequence="754" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1186">
+</warning>
+
+<warning order="341" sequence="535" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1194">
+</warning>
+
+<warning order="342" sequence="756" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1198">
+</warning>
+
+<warning order="343" sequence="536" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1206">
+</warning>
+
+<warning order="344" sequence="758" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1210">
+</warning>
+
+<warning order="345" sequence="537" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1218">
+</warning>
+
+<warning order="346" sequence="760" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1222">
+</warning>
+
+<warning order="347" sequence="538" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1230">
+</warning>
+
+<warning order="348" sequence="762" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1234">
+</warning>
+
+<warning order="349" sequence="539" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1242">
+</warning>
+
+<warning order="350" sequence="764" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1246">
+</warning>
+
+<warning order="351" sequence="540" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1254">
+</warning>
+
+<warning order="352" sequence="766" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1258">
+</warning>
+
+<warning order="353" sequence="541" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1266">
+</warning>
+
+<warning order="354" sequence="768" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1270">
+</warning>
+
+<warning order="355" sequence="542" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1278">
+</warning>
+
+<warning order="356" sequence="770" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1282">
+</warning>
+
+<warning order="357" sequence="543" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1290">
+</warning>
+
+<warning order="358" sequence="772" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1294">
+</warning>
+
+<warning order="359" sequence="544" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1302">
+</warning>
+
+<warning order="360" sequence="774" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1306">
+</warning>
+
+<warning order="361" sequence="545" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1314">
+</warning>
+
+<warning order="362" sequence="776" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1318">
+</warning>
+
+<warning order="363" sequence="546" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1326">
+</warning>
+
+<warning order="364" sequence="778" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1330">
+</warning>
+
+<warning order="365" sequence="547" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1338">
+</warning>
+
+<warning order="366" sequence="780" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1342">
+</warning>
+
+<warning order="367" sequence="548" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1350">
+</warning>
+
+<warning order="368" sequence="782" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1354">
+</warning>
+
+<warning order="369" sequence="549" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1362">
+</warning>
+
+<warning order="370" sequence="784" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1366">
+</warning>
+
+<warning order="371" sequence="550" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1374">
+</warning>
+
+<warning order="372" sequence="786" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1378">
+</warning>
+
+<warning order="373" sequence="551" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1386">
+</warning>
+
+<warning order="374" sequence="788" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1390">
+</warning>
+
+<warning order="375" sequence="552" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1398">
+</warning>
+
+<warning order="376" sequence="790" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1402">
+</warning>
+
+<warning order="377" sequence="553" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1410">
+</warning>
+
+<warning order="378" sequence="792" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1414">
+</warning>
+
+<warning order="379" sequence="554" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1422">
+</warning>
+
+<warning order="380" sequence="794" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1426">
+</warning>
+
+<warning order="381" sequence="555" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1434">
+</warning>
+
+<warning order="382" sequence="796" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1438">
+</warning>
+
+<warning order="383" sequence="556" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1446">
+</warning>
+
+<warning order="384" sequence="798" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1450">
+</warning>
+
+<warning order="385" sequence="557" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1458">
+</warning>
+
+<warning order="386" sequence="800" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1462">
+</warning>
+
+<warning order="387" sequence="558" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1470">
+</warning>
+
+<warning order="388" sequence="802" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1474">
+</warning>
+
+<warning order="389" sequence="559" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1482">
+</warning>
+
+<warning order="390" sequence="804" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1486">
+</warning>
+
+<warning order="391" sequence="560" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1494">
+</warning>
+
+<warning order="392" sequence="806" section="SCHEDULE" keyword="WCONHIST" state="FULLY_MIGRATED" context="schedule" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1498">
+</warning>
+
+<warning order="393" sequence="561" section="SCHEDULE" keyword="DATES" state="FULLY_MIGRATED" context="completions" file="C:\Users\jliu38\Desktop\CONVERT\ECLIPSE_CONVERT.sim\SNARK\SNARK_MATCH2_SWCR04_SCH.INC" line="1506">
+</warning>
+
+</eclipse>

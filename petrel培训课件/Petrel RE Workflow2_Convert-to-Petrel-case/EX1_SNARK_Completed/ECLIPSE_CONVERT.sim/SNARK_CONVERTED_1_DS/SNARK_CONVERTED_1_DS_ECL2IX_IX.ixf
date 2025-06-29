@@ -1,0 +1,1340 @@
+#############################
+# IXFVERSION: 2018.2 (626317)
+#############################
+
+MODEL_DEFINITION
+
+TimeStepSolution {
+    TimeDiscretizationMethod=FULLY_IMPLICIT
+}
+
+PropertyIdService {
+    UnitSystem=ECLIPSE_FIELD
+}
+
+Simulation {
+    StartDay=1
+    StartMonth=JANUARY
+    StartYear=1998
+    StartHour=0
+    StartMinute=0
+    StartSecond=0
+}
+
+RegionFamily "FLUID_IN_PLACE_REGION" {
+    RegionNames=["FIPNUM_1"]
+}
+
+RegionFamily "FLUX_REGION" {
+    RegionNames=["FLUXNUM_0"  "FLUXNUM_1"  "FLUXNUM_2"  "FLUXNUM_3"  "FLUXNUM_4"  "FLUXNUM_5"  "FLUXNUM_6"  "FLUXNUM_7"  "FLUXNUM_8"  "FLUXNUM_9"  "FLUXNUM_10"]
+}
+
+RegionFamily "PVT_REGION" {
+    RegionNames=["Region 1"]
+}
+
+RegionFamily "EQUATION_OF_STATE_REGION" {
+    RegionNames=["EOSNUM_1"]
+}
+
+RegionFamily "EQUILIBRATION_REGION" {
+    RegionNames=["Region 1"]
+}
+
+RegionFamily "SATURATION_FUNCTION_DRAINAGE_TABLE_NO" {
+    RegionNames=["Region 1"]
+}
+
+RegionFamily "SATURATION_FUNCTION_IMBIBITION_TABLE_NO" {
+    RegionNames=["IMBNUM_1"]
+}
+
+GridMgr {
+    IgnoreTranXYZOnGridBoundaries=TRUE
+    StrictTransOverrides=TRUE
+}
+
+StructuredInfoMgr {
+    UUID="12adc259-1997-5c98-95c9-a6e567e54d0d"
+}
+
+StructuredInfo "CoarseGrid" {
+    FirstCellId=1
+    NumberCellsInI=24
+    NumberCellsInJ=25
+    NumberCellsInK=12
+    UUID="a8232152-344d-5557-bb0f-2649fa94c799"
+}
+
+GridMgr {
+    RestartFileFormat=GSG
+}
+
+FluidFlowGrid {
+    Type=DECK
+}
+
+CellActivity {
+    GlobalMinPVForTopLevelGrids=FALSE
+    PinchZ=0.001
+    PinchZMaxGap=1e+20
+    PinchZTransCalcMethod=TOPBOT
+    MultZHandlingForTOPBOT=TOP
+}
+
+Faults {
+    FaultNames=["FAULT1"  "FAULT2"  "FAULT3"]
+}
+
+FaultDefinition "FAULT1" {
+    FaultIJKBoxDefinition "FAULT_BOXES_1" [
+        I1    I2    J1    J2    K1    K2    Face    
+         2     2    23    23     1     3      IP    
+         2     2    23    23     9    12      IP    
+         3     3    22    22     1     3      JP    
+         3     3    22    22     9    12      JP    
+         3     3    22    22     1     3      IP    
+         3     3    22    22     9    12      IP    
+         4     4    21    21     1     3      JP    
+         4     4    21    21     8    12      JP    
+         4     4    21    21     1     3      IP    
+         4     4    21    21     8    12      IP    
+         4     4    20    20     1     3      IP    
+         4     4    20    20     8    12      IP    
+         4     4    19    19     1     3      IP    
+         4     4    19    19     9    12      IP    
+         5     5    18    18     1     3      JP    
+         5     5    18    18     9    12      JP    
+         5     5    18    18     1     3      IP    
+         5     5    18    18     9    12      IP    
+         5     5    17    17     1     3      IP    
+         5     5    17    17     9    12      IP    
+         6     6    16    16     1     3      JP    
+         6     6    16    16     8    12      JP    
+         6     6    16    16     1     3      IP    
+         6     6    16    16     8    12      IP    
+         6     6    15    15     1     3      IP    
+         6     6    15    15     8    12      IP    
+         7     7    14    14     1     3      JP    
+         7     7    14    14     9    12      JP    
+         7     7    14    14     1     3      IP    
+         7     7    14    14     9    12      IP    
+         7     7    13    13     1     3      IP    
+         7     7    13    13     9    12      IP    
+         7     7    12    12     1     3      IP    
+         7     7    12    12     9    12      IP    
+         8     8    11    11     1     3      JP    
+         8     8    11    11     8    12      JP    
+         8     8    11    11     1     3      IP    
+         8     8    11    11     8    12      IP    
+         8     8    10    10     1     3      IP    
+         8     8    10    10     8    12      IP    
+         8     8     9     9     1     3      IP    
+         8     8     9     9     8    12      IP    
+         9     9     8     8     1     3      JP    
+         9     9     8     8     8    12      JP    
+         9     9     8     8     1     3      IP    
+         9     9     8     8     8    12      IP    
+         9     9     7     7     1     3      IP    
+         9     9     7     7     8    12      IP    
+        10    10     6     6     1     3      JP    
+        10    10     6     6     8    12      JP    
+        10    10     6     6     1     3      IP    
+        10    10     6     6     8    12      IP    
+        10    10     5     5     1     3      IP    
+        10    10     5     5     8    12      IP    
+        10    10     4     4     1     3      IP    
+        10    10     4     4     9    12      IP    
+        11    11     3     3     1     3      JP    
+        11    11     3     3     8    12      JP    
+        11    11     3     3     1     3      IP    
+        11    11     3     3     8    12      IP    
+        11    11     2     2     1     3      IP    
+        11    11     2     2     8    12      IP    
+        11    11     1     1     1     3      IP    
+        11    11     1     1     8    12      IP    
+    ]
+
+}
+
+FaultDefinition "FAULT2" {
+    FaultIJKBoxDefinition "FAULT_BOXES_1" [
+        I1    I2    J1    J2    K1    K2    Face    
+        22    22    23    23     1    12      IP    
+        22    22    22    22     1    12      IP    
+        22    22    21    21     1    12      IP    
+        22    22    20    20     1    12      JP    
+        21    21    20    20     1    12      IP    
+        21    21    19    19     1    12      IP    
+        21    21    18    18     1    12      IP    
+        21    21    17    17     1    12      IP    
+        21    21    16    16     1    12      JP    
+        20    20    16    16     1    12      IP    
+        20    20    15    15     1    12      IP    
+        20    20    14    14     1     3      IP    
+        20    20    14    14     5    12      IP    
+        20    20    13    13     1     3      IP    
+        20    20    13    13     5    12      IP    
+        20    20    12    12     1     3      JP    
+        20    20    12    12     5    12      JP    
+        19    19    12    12     1     3      IP    
+        19    19    12    12     5    12      IP    
+        19    19    11    11     1     3      IP    
+        19    19    11    11     5    12      IP    
+        19    19    10    10     1     3      JP    
+        19    19    10    10     6    12      JP    
+        18    18    10    10     1     3      IP    
+        18    18    10    10     6    12      IP    
+        18    18     9     9     1     3      IP    
+        18    18     9     9     6    12      IP    
+        18    18     8     8     1     3      IP    
+        18    18     8     8     6    12      IP    
+        18    18     7     7     1     3      IP    
+        18    18     7     7     6    12      IP    
+        18    18     6     6     1     3      JP    
+        18    18     6     6     6    12      JP    
+        17    17     6     6     1     3      IP    
+        17    17     6     6     6    12      IP    
+        17    17     5     5     1     3      IP    
+        17    17     5     5     6    12      IP    
+        17    17     4     4     1     3      JP    
+        17    17     4     4     6    12      JP    
+        16    16     4     4     1     3      IP    
+        16    16     4     4     7    12      IP    
+        16    16     3     3     1     3      IP    
+        16    16     3     3     7    12      IP    
+        16    16     2     2     1     3      IP    
+        16    16     2     2     6    12      IP    
+        16    16     1     1     1     3      JP    
+        16    16     1     1     6    12      JP    
+        15    15     1     1     1     3      IP    
+        15    15     1     1     7    12      IP    
+    ]
+
+}
+
+FaultDefinition "FAULT3" {
+    FaultIJKBoxDefinition "FAULT_BOXES_1" [
+        I1    I2    J1    J2    K1    K2    Face    
+        20    20    11    11     1     3      JP    
+        20    20    11    11     6    12      JP    
+        20    20    11    11     1     3      IP    
+        20    20    11    11     6    12      IP    
+        20    20    10    10     1     3      IP    
+        20    20    10    10     6    12      IP    
+        20    20     9     9     1     3      JP    
+        20    20     9     9     5    12      JP    
+        19    19     9     9     1     3      IP    
+        19    19     9     9     6    12      IP    
+        19    19     8     8     1     3      IP    
+        19    19     8     8     6    12      IP    
+        19    19     7     7     1     3      IP    
+        19    19     7     7     6    12      IP    
+        19    19     6     6     1     3      IP    
+        19    19     6     6     6    12      IP    
+        19    19     5     5     1     3      IP    
+        19    19     5     5     6    12      IP    
+        19    19     4     4     1     3      IP    
+        19    19     4     4     6    12      IP    
+        19    19     3     3     1     3      IP    
+        19    19     3     3     6    12      IP    
+        19    19     2     2     1     3      IP    
+        19    19     2     2     5    12      IP    
+    ]
+
+}
+
+BoxPropertyEdit "ACTNUM_1" [
+    I1    I2    J1    J2    K1    K2            Grid              Property                        Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "ACTIVE_CELL_FLAG"    "LOAD:ACTNUM_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "PERMX_1" [
+    I1    I2    J1    J2    K1    K2            Grid    Property                       Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "PERM_I"    "LOAD:PERMX_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "PERMY_1" [
+    I1    I2    J1    J2    K1    K2            Grid    Property                       Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "PERM_J"    "LOAD:PERMY_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "PERMZ_1" [
+    I1    I2    J1    J2    K1    K2            Grid    Property                       Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "PERM_K"    "LOAD:PERMZ_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "PORO_1" [
+    I1    I2    J1    J2    K1    K2            Grid      Property                      Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "POROSITY"    "LOAD:PORO_1_24_1_25_1_12_1"    
+]
+
+CellActivity {
+    MinNNCTrans=1e-06
+}
+
+BoxPropertyEdit "EQUALS_1" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     6     6    16    16     1     1    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16     2     2    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16     3     3    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16     9     9    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16    10    10    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16    11    11    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     6     6    16    16    12    12    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_1" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_2" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     6     6    16    16     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    16    16    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     6     6    15    15    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_2" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_3" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     7     7    14    14     1     1    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14     2     2    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14     3     3    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14     9     9    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14    10    10    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14    11    11    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     7     7    14    14    12    12    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_3" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_4" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     7     7    14    14     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    14    14    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    13    13    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     7     7    12    12    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_4" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_5" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     8     8    11    11     1     1    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11     2     2    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11     3     3    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11     9     9    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11    10    10    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11    11    11    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     8     8    11    11    12    12    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_5" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_6" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     8     8    11    11     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    11    11    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8    10    10    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     8     8     9     9    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_6" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_7" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     9     9     8     8     1     1    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8     2     2    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8     3     3    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8     9     9    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8    10    10    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8    11    11    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+     9     9     8     8    12    12    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_7" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_8" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+     9     9     8     8     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     8     8    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7     3     3    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+     9     9     7     7    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_8" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_9" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+    10    10     6     6     1     1    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+    10    10     6     6     2     2    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+    10    10     6     6     9     9    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+    10    10     6     6    10    10    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+    10    10     6     6    11    11    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+    10    10     6     6    12    12    "CoarseGrid"    "TRANSMISSIBILITY_J"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_9" {
+    PostTransOverride=TRUE
+}
+
+BoxPropertyEdit "EQUALS_10" [
+    I1    I2    J1    J2    K1    K2            Grid                Property    Expression    
+    10    10     6     6     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     6     6     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     6     6     9     9    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     6     6    10    10    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     6     6    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     6     6    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     5     5     1     1    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     5     5     2     2    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     5     5    11    11    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+    10    10     5     5    12    12    "CoarseGrid"    "TRANSMISSIBILITY_I"           "0"    
+]
+
+BoxPropertyEdit "EQUALS_10" {
+    PostTransOverride=TRUE
+}
+
+TwoPhaseSaturationFunction "Saturation function 1" {
+    OilWaterFunction [
+        WaterSaturation    WaterRelPerm    OilRelPerm    CapPressure    
+                    0.2               0           0.9             50    
+                   0.22               0         0.803             45    
+                    0.3           0.001         0.487             25    
+                    0.4           0.009         0.221           12.5    
+                    0.5           0.045         0.078            6.3    
+                    0.6           0.154         0.014            2.5    
+                    0.7           0.387         0.001            1.3    
+                   0.73            0.48             0            1.1    
+                    0.8             0.8             0            0.8    
+                      1               1             0              0    
+    ]
+
+    GasOilFunction [
+        GasSaturation    GasRelPerm    OilRelPerm    CapPressure    
+                    0             0           0.9              0    
+                 0.06             0         0.525              0    
+                  0.1             0         0.375              0    
+                 0.14             0         0.213              0    
+                 0.19         0.002         0.106              0    
+                 0.24         0.006         0.042              0    
+                 0.29         0.013         0.011              0    
+                 0.33         0.035         0.001              0    
+                 0.37         0.061             0              0    
+                  0.8           0.9             0              0    
+    ]
+
+}
+
+RockCompressibility "Rock compaction 1" {
+    PoreVolCompressibility=2.8e-06
+    RefPressure=5801.5
+}
+
+RegionFamily "ROCK_COMPACTION_REGION" {
+    RegionNames=["Region 1"]
+}
+
+RockRegionMapping [
+                          RegionFamilyNames    RegionNames                 ModelNames                    MappingTypes    
+                   "ROCK_COMPACTION_REGION"     "Region 1"        "Rock compaction 1"                  ROCK_MECHANICS    
+    "SATURATION_FUNCTION_DRAINAGE_TABLE_NO"     "Region 1"    "Saturation function 1"    DRAINAGE_SATURATION_FUNCTION    
+]
+
+RockMgr {
+    HorizontalEndPointScaling=TRUE
+    VerticalEndPointScaling=TRUE
+}
+
+RockOptions {
+    CriticalRelPermTolerance=1e-06
+    PrevalentRelPermEndPoint=IGNORE_CRITICAL
+}
+
+FluidMgr {
+    OverrideBlackOilHydrocarbonMolecularWeight=TRUE
+}
+
+BlackOilFluidModel "PVTNUM_1" {
+    GasSurfaceDensity=0.097
+    OilSurfaceDensity=42.28
+    UndersaturatedGasTable "UndersaturatedGasTable" [
+        Pressure    FormationVolumeFactor    Viscosity    
+             250                   12.651        0.012    
+             500                    6.076        0.013    
+           570.3                    5.662        0.013    
+           587.8                    5.558        0.013    
+           605.4                    5.455        0.013    
+           640.5                    5.248        0.013    
+           781.1                     4.42        0.013    
+          1062.2                    3.413        0.014    
+            1500                    2.037        0.016    
+          1783.8                    1.494        0.018    
+            2000                    1.326        0.019    
+            2500                    1.073        0.023    
+          3035.7                    0.916        0.026    
+            3400                    0.845        0.029    
+    ]
+
+    UndersaturatedGasTable "UndersaturatedGasTable" {
+        CalculationMethod=ECLIPSE_100
+    }
+
+    OilTable "OilTable1" [
+        SubTableIndex    SolutionGOR    Pressure    FormationVolumeFactor    Viscosity    
+                    0          0.137         250                    1.274        0.107    
+                    1          0.368         500                    1.459        0.094    
+                    2          0.433       570.3                     1.51        0.091    
+                    3          0.449       587.8                    1.523         0.09    
+                    4          0.466       605.4                    1.536        0.089    
+                    5            0.5       640.5                    1.562        0.088    
+                    5            0.5       781.1                    1.548        0.091    
+                    5            0.5      1062.2                    1.522        0.096    
+                    5            0.5        1500                    1.489        0.105    
+                    5            0.5      1783.8                    1.471        0.111    
+                    5            0.5        2000                    1.458        0.115    
+                    5            0.5        2500                    1.433        0.124    
+                    5            0.5      3035.7                     1.41        0.134    
+                    5            0.5        3400                    1.397        0.141    
+                    6          0.642       781.1                    1.674        0.083    
+                    7          0.973      1062.2                    1.934        0.073    
+                    7          0.973        1500                    1.871        0.081    
+                    7          0.973      1783.8                    1.838        0.085    
+                    7          0.973        2000                    1.816        0.089    
+                    7          0.973        2500                    1.773        0.097    
+                    7          0.973      3035.7                    1.735        0.105    
+                    7          0.973        3400                    1.714        0.111    
+                    8          1.686        1500                    2.508         0.06    
+                    8          1.686      1783.8                    2.437        0.064    
+                    8          1.686        2000                    2.392        0.067    
+                    8          1.686        2500                    2.309        0.074    
+                    8          1.686      3035.7                     2.24        0.081    
+                    8          1.686        3400                    2.202        0.086    
+                    9          2.403      1783.8                    3.107        0.052    
+                    9          2.403        2000                    3.025        0.055    
+                    9          2.403        2500                    2.881        0.061    
+                    9          2.403      3035.7                     2.77        0.067    
+                    9          2.403        3400                    2.709        0.071    
+                   10              5        3300                      3.5        0.041    
+                   10              5        3400                     3.46        0.042    
+    ]
+
+    OilTable "OilTable1" {
+        OilSurfaceDensity=42.28
+        CalculationMethod=ECLIPSE_100
+    }
+
+    WaterCompressibilities {
+        SurfaceDensity=62.43
+        RefPressure=3118
+        FormationVolumeFactor=1.013
+        Viscosity=0.4
+        Compressibility=2.74e-06
+        ViscosityCompressibility=0
+    }
+
+}
+
+Equilibrium "EQLNUM_1" {
+    DataType=DATUM_PLUS_GOC
+    FluidType=NOT_SET
+    DatumDepth=7000
+    DatumPressure=3035.7
+    WOCDepth=8200
+    WOCCapPressure=0
+    GOCDepth=7000
+    GOCCapPressure=0
+    NumberOfPressureDepthTableNodes=100
+    OilGasTransitionAdjustment=FULL_ADJUSTMENT
+    SolutionGORDepthTable [
+        Depth    SolutionGOR    
+         7000          0.973    
+         9000          0.973    
+    ]
+
+    SolutionDepthTableCalculationMethod=ECLIPSE_100
+}
+
+FluidRegionMapping [
+    RegionFamilyNames    RegionNames    ModelNames       MappingTypes    
+         "PVT_REGION"     "Region 1"    "PVTNUM_1"    FLUID_PVT_MODEL    
+]
+
+EquilibriumRegionMapping [
+         RegionFamilyNames    RegionNames    ModelNames             MappingTypes    
+    "EQUILIBRATION_REGION"     "Region 1"    "EQLNUM_1"    EQUILIBRIUM_EQL_MODEL    
+]
+
+FluidFlowGrid {
+    InternalInitializer=TRUE
+    EnumerationInitialization=FALSE
+}
+
+Simulation {
+    PhasesPresent=[GAS  OIL  WATER]
+}
+
+FaultThresholdPressures {
+}
+
+ConstantThresholdPressure {
+    SelectedFault=["FAULT1"  "FAULT2"  "FAULT3"]
+    FaultThresholdPressure=[0  0  0]
+}
+
+Separator "default_injection_stream_separator" {
+    FluidModel="Region 1"
+    SeparatorStage "default_injection_stream_separator_Stage1" {
+        Pressure=14.6959487755134
+        Temperature=60
+        StageOutlet "default_injection_stream_separator_Stage1_liquid_outlet" {
+            Phase=LIQUID
+            Destination=""
+            TargetFractionToDestination=1
+        }
+
+        StageOutlet "default_injection_stream_separator_Stage1_vapor_outlet" {
+            Phase=VAPOR
+            Destination=""
+            TargetFractionToDestination=1
+        }
+
+        StageOutlet "default_injection_stream_separator_Stage1_aqueous_outlet" {
+            Phase=AQUEOUS
+            Destination=""
+            TargetFractionToDestination=1
+        }
+
+    }
+
+}
+
+AllWellDrawdownLimitOptions {
+    IncludeInPotentials=FALSE
+}
+
+BoxPropertyEdit "SWCR_1" [
+    I1    I2    J1    J2    K1    K2            Grid                       Property                      Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "CRITICAL_WATER_SATURATION"    "LOAD:SWCR_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "SATNUM_1" [
+    I1    I2    J1    J2    K1    K2            Grid                                   Property                        Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "SATURATION_FUNCTION_DRAINAGE_TABLE_NO"    "LOAD:SATNUM_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "PVTNUM_1" [
+    I1    I2    J1    J2    K1    K2            Grid        Property                        Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "PVT_REGION"    "LOAD:PVTNUM_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "ROCKNUM_1" [
+    I1    I2    J1    J2    K1    K2            Grid                    Property                         Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "ROCK_COMPACTION_REGION"    "LOAD:ROCKNUM_1_24_1_25_1_12_1"    
+]
+
+BoxPropertyEdit "EQLNUM_1" [
+    I1    I2    J1    J2    K1    K2            Grid                  Property                        Expression    
+     1    24     1    25     1    12    "CoarseGrid"    "EQUILIBRATION_REGION"    "LOAD:EQLNUM_1_24_1_25_1_12_1"    
+]
+
+
+START
+#DATE  "01-Jan-1998"    
+
+WellDef "PROD1" {
+    Undefined=TRUE
+    ResVolConditions {
+        Method=RESERVOIR
+        LimitByAverageRsRv=TRUE
+    }
+
+    TubingHeadPressureCalculationOptions {
+        FlowRatioExtrapolationMethod=LINEAR
+    }
+
+    PseudoPressureModel=NONE
+    AllowCrossFlow=TRUE
+    HeadDensityCalculation=SEGMENTED
+}
+
+WellDef "PROD2" {
+    Undefined=TRUE
+    ResVolConditions {
+        Method=RESERVOIR
+        LimitByAverageRsRv=TRUE
+    }
+
+    TubingHeadPressureCalculationOptions {
+        FlowRatioExtrapolationMethod=LINEAR
+    }
+
+    PseudoPressureModel=NONE
+    AllowCrossFlow=TRUE
+    HeadDensityCalculation=SEGMENTED
+}
+
+WellDef "PROD3" {
+    Undefined=TRUE
+    ResVolConditions {
+        Method=RESERVOIR
+        LimitByAverageRsRv=TRUE
+    }
+
+    TubingHeadPressureCalculationOptions {
+        FlowRatioExtrapolationMethod=LINEAR
+    }
+
+    PseudoPressureModel=NONE
+    AllowCrossFlow=TRUE
+    HeadDensityCalculation=SEGMENTED
+}
+
+WellDef "PROD4" {
+    Undefined=TRUE
+    ResVolConditions {
+        Method=RESERVOIR
+        LimitByAverageRsRv=TRUE
+    }
+
+    TubingHeadPressureCalculationOptions {
+        FlowRatioExtrapolationMethod=LINEAR
+    }
+
+    PseudoPressureModel=NONE
+    AllowCrossFlow=TRUE
+    HeadDensityCalculation=SEGMENTED
+}
+
+WellDef "PRODUCER" {
+    Undefined=TRUE
+    ResVolConditions {
+        Method=RESERVOIR
+        LimitByAverageRsRv=TRUE
+    }
+
+    TubingHeadPressureCalculationOptions {
+        FlowRatioExtrapolationMethod=LINEAR
+    }
+
+    PseudoPressureModel=NONE
+    AllowCrossFlow=TRUE
+    HeadDensityCalculation=SEGMENTED
+}
+
+WellDef "PROD1" {
+    WellToCellConnections [
+        Status    PiMultiplier       Completion    Transmissibility    PermeabilityThickness    PressureEquivalentRadius         Cell    SegmentNode    RockRegionName    WellBoreRadius    PenetrationDirection    Skin    
+          OPEN               1    "COMPLETION1"              6.7279                  12485.6                     88.1786     (13 8 1)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION2"             0.10701                  198.581                      88.133     (13 8 2)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION3"           0.0061668                  11.4434                     88.0903     (13 8 3)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION4"              13.437                  24937.3                      88.223     (13 8 8)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION5"              12.537                  23268.3                     88.2859     (13 8 9)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION6"              1.0653                   1977.1                     88.2509    (13 8 10)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION7"            0.016854                  31.2775                     88.1766    (13 8 11)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION8"             0.02371                  44.0011                      88.184    (13 8 12)              1                ""            0.3125                       K     7.5    
+    ]
+
+    connection_factor_reset(cells=[(13 8 1)  (13 8 2)  (13 8 3)  (13 8 8)  (13 8 9)  (13 8 10)  (13 8 11)  (13 8 12)])
+    pi_multiplier_reset(cells=[(13 8 1)  (13 8 2)  (13 8 3)  (13 8 8)  (13 8 9)  (13 8 10)  (13 8 11)  (13 8 12)])
+}
+
+WellDef "PROD2" {
+    WellToCellConnections [
+        Status    PiMultiplier       Completion    Transmissibility    PermeabilityThickness    PressureEquivalentRadius         Cell    SegmentNode    RockRegionName    WellBoreRadius    PenetrationDirection    Skin    
+          OPEN               1    "COMPLETION1"              15.087                  27971.6                     87.0753     (7 20 1)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION2"              7.4983                  13901.9                     87.0681     (7 20 2)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION3"           0.0046384                  8.59877                     86.9555     (7 20 3)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION4"             0.70293                  1303.18                     87.0192     (7 20 8)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION5"               2.448                  4538.42                     87.0212     (7 20 9)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION6"              2.8678                  5316.71                     87.0228    (7 20 10)              1                ""            0.3125                       K     7.5    
+    ]
+
+    connection_factor_reset(cells=[(7 20 1)  (7 20 2)  (7 20 3)  (7 20 8)  (7 20 9)  (7 20 10)])
+    pi_multiplier_reset(cells=[(7 20 1)  (7 20 2)  (7 20 3)  (7 20 8)  (7 20 9)  (7 20 10)])
+}
+
+WellDef "PROD3" {
+    WellToCellConnections [
+        Status    PiMultiplier       Completion    Transmissibility    PermeabilityThickness    PressureEquivalentRadius         Cell    SegmentNode    RockRegionName    WellBoreRadius    PenetrationDirection    Skin    
+          OPEN               1    "COMPLETION1"              4.2994                   7967.9                     86.6093    (16 16 2)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION2"           0.0086831                  16.0914                     86.5646    (16 16 3)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION3"              2.5527                     4731                     86.6532    (16 16 6)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION4"              11.452                  21225.9                     86.7357    (16 16 7)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION5"              14.109                  26150.6                     86.7376    (16 16 8)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION6"              4.6187                   8560.5                      86.723    (16 16 9)              1                ""            0.3125                       K     7.5    
+    ]
+
+    connection_factor_reset(cells=[(16 16 2)  (16 16 3)  (16 16 6)  (16 16 7)  (16 16 8)  (16 16 9)])
+    pi_multiplier_reset(cells=[(16 16 2)  (16 16 3)  (16 16 6)  (16 16 7)  (16 16 8)  (16 16 9)])
+}
+
+WellDef "PROD4" {
+    WellToCellConnections [
+        Status    PiMultiplier       Completion    Transmissibility    PermeabilityThickness    PressureEquivalentRadius         Cell    SegmentNode    RockRegionName    WellBoreRadius    PenetrationDirection    Skin    
+          OPEN               1    "COMPLETION1"              19.552                  36239.3                     86.7474    (17 21 1)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION2"              5.4056                  10019.1                     86.7311    (17 21 2)              1                ""            0.3125                       K     7.5    
+    ]
+
+    connection_factor_reset(cells=[(17 21 1)  (17 21 2)])
+    pi_multiplier_reset(cells=[(17 21 1)  (17 21 2)])
+}
+
+WellDef "PRODUCER" {
+    WellToCellConnections [
+        Status    PiMultiplier       Completion    Transmissibility    PermeabilityThickness    PressureEquivalentRadius        Cell    SegmentNode    RockRegionName    WellBoreRadius    PenetrationDirection    Skin    
+          OPEN               1    "COMPLETION1"               6.704                    12463                     90.2248     (6 8 1)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION2"               4.252                  7904.53                     90.2117     (6 8 2)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION3"           0.0037059                  6.88769                     89.9315     (6 8 3)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION4"           0.0020833                  3.87277                     90.1771     (6 8 8)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION5"               3.811                  7084.46                     90.1709     (6 8 9)              1                ""            0.3125                       K     7.5    
+          OPEN               1    "COMPLETION6"           0.0084126                  15.6355                     89.9356    (6 8 10)              1                ""            0.3125                       K     7.5    
+    ]
+
+    connection_factor_reset(cells=[(6 8 1)  (6 8 2)  (6 8 3)  (6 8 8)  (6 8 9)  (6 8 10)])
+    pi_multiplier_reset(cells=[(6 8 1)  (6 8 2)  (6 8 3)  (6 8 8)  (6 8 9)  (6 8 10)])
+}
+
+AllWellCalculationOptions {
+    WellConnectionNTGTreatment=SCALE_KH_AND_R0
+}
+
+WellDef "PROD1" {
+    WellToCellConnections {
+        SegmentNode=[1  1  1  1  1  1  1  1]
+    }
+
+    Undefined=FALSE
+}
+
+WellDef "PROD2" {
+    WellToCellConnections {
+        SegmentNode=[1  1  1  1  1  1]
+    }
+
+    Undefined=FALSE
+}
+
+WellDef "PROD3" {
+    WellToCellConnections {
+        SegmentNode=[1  1  1  1  1  1]
+    }
+
+    Undefined=FALSE
+}
+
+WellDef "PROD4" {
+    WellToCellConnections {
+        SegmentNode=[1  1]
+    }
+
+    Undefined=FALSE
+}
+
+WellDef "PRODUCER" {
+    WellToCellConnections {
+        SegmentNode=[1  1  1  1  1  1]
+    }
+
+    Undefined=FALSE
+}
+
+WellDef "PROD1" {
+    WellToCellConnections [
+             Cell    Status    Transmissibility    PiMultiplier       Completion    SegmentNode    RockRegionName    PenetrationDirection    Skin    PressureEquivalentRadius    WellBoreRadius    PermeabilityThickness    
+         (13 8 1)      OPEN              6.7279               1    "COMPLETION1"              1                ""                       K     7.5                     88.1786            0.3125                  12485.6    
+         (13 8 2)      OPEN             0.10701               1    "COMPLETION2"              1                ""                       K     7.5                      88.133            0.3125                  198.581    
+         (13 8 3)      OPEN           0.0061668               1    "COMPLETION3"              1                ""                       K     7.5                     88.0903            0.3125                  11.4434    
+         (13 8 8)      OPEN              13.437               1    "COMPLETION4"              1                ""                       K     7.5                      88.223            0.3125                  24937.3    
+         (13 8 9)      OPEN              12.537               1    "COMPLETION5"              1                ""                       K     7.5                     88.2859            0.3125                  23268.3    
+        (13 8 10)      OPEN              1.0653               1    "COMPLETION6"              1                ""                       K     7.5                     88.2509            0.3125                   1977.1    
+        (13 8 11)      OPEN            0.016854               1    "COMPLETION7"              1                ""                       K     7.5                     88.1766            0.3125                  31.2775    
+        (13 8 12)      OPEN             0.02371               1    "COMPLETION8"              1                ""                       K     7.5                      88.184            0.3125                  44.0011    
+    ]
+
+}
+
+WellDef "PROD2" {
+    WellToCellConnections [
+             Cell    Status    Transmissibility    PiMultiplier       Completion    SegmentNode    RockRegionName    PenetrationDirection    Skin    PressureEquivalentRadius    WellBoreRadius    PermeabilityThickness    
+         (7 20 1)      OPEN              15.087               1    "COMPLETION1"              1                ""                       K     7.5                     87.0753            0.3125                  27971.6    
+         (7 20 2)      OPEN              7.4983               1    "COMPLETION2"              1                ""                       K     7.5                     87.0681            0.3125                  13901.9    
+         (7 20 3)      OPEN           0.0046384               1    "COMPLETION3"              1                ""                       K     7.5                     86.9555            0.3125                  8.59877    
+         (7 20 8)      OPEN             0.70293               1    "COMPLETION4"              1                ""                       K     7.5                     87.0192            0.3125                  1303.18    
+         (7 20 9)      OPEN               2.448               1    "COMPLETION5"              1                ""                       K     7.5                     87.0212            0.3125                  4538.42    
+        (7 20 10)      OPEN              2.8678               1    "COMPLETION6"              1                ""                       K     7.5                     87.0228            0.3125                  5316.71    
+    ]
+
+}
+
+WellDef "PROD3" {
+    WellToCellConnections [
+             Cell    Status    Transmissibility    PiMultiplier       Completion    SegmentNode    RockRegionName    PenetrationDirection    Skin    PressureEquivalentRadius    WellBoreRadius    PermeabilityThickness    
+        (16 16 2)      OPEN              4.2994               1    "COMPLETION1"              1                ""                       K     7.5                     86.6093            0.3125                   7967.9    
+        (16 16 3)      OPEN           0.0086831               1    "COMPLETION2"              1                ""                       K     7.5                     86.5646            0.3125                  16.0914    
+        (16 16 6)      OPEN              2.5527               1    "COMPLETION3"              1                ""                       K     7.5                     86.6532            0.3125                     4731    
+        (16 16 7)      OPEN              11.452               1    "COMPLETION4"              1                ""                       K     7.5                     86.7357            0.3125                  21225.9    
+        (16 16 8)      OPEN              14.109               1    "COMPLETION5"              1                ""                       K     7.5                     86.7376            0.3125                  26150.6    
+        (16 16 9)      OPEN              4.6187               1    "COMPLETION6"              1                ""                       K     7.5                      86.723            0.3125                   8560.5    
+    ]
+
+}
+
+WellDef "PROD4" {
+    WellToCellConnections [
+             Cell    Status    Transmissibility    PiMultiplier       Completion    SegmentNode    RockRegionName    PenetrationDirection    Skin    PressureEquivalentRadius    WellBoreRadius    PermeabilityThickness    
+        (17 21 1)      OPEN              19.552               1    "COMPLETION1"              1                ""                       K     7.5                     86.7474            0.3125                  36239.3    
+        (17 21 2)      OPEN              5.4056               1    "COMPLETION2"              1                ""                       K     7.5                     86.7311            0.3125                  10019.1    
+    ]
+
+}
+
+WellDef "PRODUCER" {
+    WellToCellConnections [
+            Cell    Status    Transmissibility    PiMultiplier       Completion    SegmentNode    RockRegionName    PenetrationDirection    Skin    PressureEquivalentRadius    WellBoreRadius    PermeabilityThickness    
+         (6 8 1)      OPEN               6.704               1    "COMPLETION1"              1                ""                       K     7.5                     90.2248            0.3125                    12463    
+         (6 8 2)      OPEN               4.252               1    "COMPLETION2"              1                ""                       K     7.5                     90.2117            0.3125                  7904.53    
+         (6 8 3)      OPEN           0.0037059               1    "COMPLETION3"              1                ""                       K     7.5                     89.9315            0.3125                  6.88769    
+         (6 8 8)      OPEN           0.0020833               1    "COMPLETION4"              1                ""                       K     7.5                     90.1771            0.3125                  3.87277    
+         (6 8 9)      OPEN               3.811               1    "COMPLETION5"              1                ""                       K     7.5                     90.1709            0.3125                  7084.46    
+        (6 8 10)      OPEN           0.0084126               1    "COMPLETION6"              1                ""                       K     7.5                     89.9356            0.3125                  15.6355    
+    ]
+
+}
+
+
+DATE  "01-Feb-1998"    
+#TIME  31.0    
+#TIME is in days
+
+DATE  "01-Mar-1998"    
+#TIME  59.0    
+
+DATE  "01-Apr-1998"    
+#TIME  90.0    
+
+DATE  "01-May-1998"    
+#TIME  120.0    
+
+DATE  "01-Jun-1998"    
+#TIME  151.0    
+
+DATE  "01-Jul-1998"    
+#TIME  181.0    
+
+DATE  "01-Aug-1998"    
+#TIME  212.0    
+
+DATE  "01-Sep-1998"    
+#TIME  243.0    
+
+DATE  "01-Oct-1998"    
+#TIME  273.0    
+
+DATE  "01-Nov-1998"    
+#TIME  304.0    
+
+DATE  "01-Dec-1998"    
+#TIME  334.0    
+
+DATE  "01-Jan-1999"    
+#TIME  365.0    
+
+DATE  "01-Feb-1999"    
+#TIME  396.0    
+
+DATE  "01-Mar-1999"    
+#TIME  424.0    
+
+DATE  "01-Apr-1999"    
+#TIME  455.0    
+
+DATE  "01-May-1999"    
+#TIME  485.0    
+
+DATE  "01-Jun-1999"    
+#TIME  516.0    
+
+DATE  "01-Jul-1999"    
+#TIME  546.0    
+
+DATE  "01-Aug-1999"    
+#TIME  577.0    
+
+DATE  "01-Sep-1999"    
+#TIME  608.0    
+
+DATE  "01-Oct-1999"    
+#TIME  638.0    
+
+DATE  "01-Nov-1999"    
+#TIME  669.0    
+
+DATE  "01-Dec-1999"    
+#TIME  699.0    
+
+DATE  "01-Jan-2000"    
+#TIME  730.0    
+
+DATE  "01-Feb-2000"    
+#TIME  761.0    
+
+DATE  "01-Mar-2000"    
+#TIME  790.0    
+
+DATE  "01-Apr-2000"    
+#TIME  821.0    
+
+DATE  "01-May-2000"    
+#TIME  851.0    
+
+DATE  "01-Jun-2000"    
+#TIME  882.0    
+
+DATE  "01-Jul-2000"    
+#TIME  912.0    
+
+DATE  "01-Aug-2000"    
+#TIME  943.0    
+
+DATE  "01-Sep-2000"    
+#TIME  974.0    
+
+DATE  "01-Oct-2000"    
+#TIME  1004.0    
+
+DATE  "01-Nov-2000"    
+#TIME  1035.0    
+
+DATE  "01-Dec-2000"    
+#TIME  1065.0    
+
+DATE  "01-Jan-2001"    
+#TIME  1096.0    
+
+DATE  "01-Feb-2001"    
+#TIME  1127.0    
+
+DATE  "01-Mar-2001"    
+#TIME  1155.0    
+
+DATE  "01-Apr-2001"    
+#TIME  1186.0    
+
+DATE  "01-May-2001"    
+#TIME  1216.0    
+
+DATE  "01-Jun-2001"    
+#TIME  1247.0    
+
+DATE  "01-Jul-2001"    
+#TIME  1277.0    
+
+DATE  "01-Aug-2001"    
+#TIME  1308.0    
+
+DATE  "01-Sep-2001"    
+#TIME  1339.0    
+
+DATE  "01-Oct-2001"    
+#TIME  1369.0    
+
+DATE  "01-Nov-2001"    
+#TIME  1400.0    
+
+DATE  "01-Dec-2001"    
+#TIME  1430.0    
+
+DATE  "01-Jan-2002"    
+#TIME  1461.0    
+
+DATE  "01-Feb-2002"    
+#TIME  1492.0    
+
+DATE  "01-Mar-2002"    
+#TIME  1520.0    
+
+DATE  "01-Apr-2002"    
+#TIME  1551.0    
+
+DATE  "01-May-2002"    
+#TIME  1581.0    
+
+DATE  "01-Jun-2002"    
+#TIME  1612.0    
+
+DATE  "01-Jul-2002"    
+#TIME  1642.0    
+
+DATE  "01-Aug-2002"    
+#TIME  1673.0    
+
+DATE  "01-Sep-2002"    
+#TIME  1704.0    
+
+DATE  "01-Oct-2002"    
+#TIME  1734.0    
+
+DATE  "01-Nov-2002"    
+#TIME  1765.0    
+
+DATE  "01-Dec-2002"    
+#TIME  1795.0    
+
+DATE  "01-Jan-2003"    
+#TIME  1826.0    
+
+DATE  "01-Feb-2003"    
+#TIME  1857.0    
+
+DATE  "01-Mar-2003"    
+#TIME  1885.0    
+
+DATE  "01-Apr-2003"    
+#TIME  1916.0    
+
+DATE  "01-May-2003"    
+#TIME  1946.0    
+
+DATE  "01-Jun-2003"    
+#TIME  1977.0    
+
+DATE  "01-Jul-2003"    
+#TIME  2007.0    
+
+DATE  "01-Aug-2003"    
+#TIME  2038.0    
+
+DATE  "01-Sep-2003"    
+#TIME  2069.0    
+
+DATE  "01-Oct-2003"    
+#TIME  2099.0    
+
+DATE  "01-Nov-2003"    
+#TIME  2130.0    
+
+DATE  "01-Dec-2003"    
+#TIME  2160.0    
+
+DATE  "01-Jan-2004"    
+#TIME  2191.0    
+
+DATE  "01-Feb-2004"    
+#TIME  2222.0    
+
+DATE  "01-Mar-2004"    
+#TIME  2251.0    
+
+DATE  "01-Apr-2004"    
+#TIME  2282.0    
+
+DATE  "01-May-2004"    
+#TIME  2312.0    
+
+DATE  "01-Jun-2004"    
+#TIME  2343.0    
+
+DATE  "01-Jul-2004"    
+#TIME  2373.0    
+
+DATE  "01-Aug-2004"    
+#TIME  2404.0    
+
+DATE  "01-Sep-2004"    
+#TIME  2435.0    
+
+DATE  "01-Oct-2004"    
+#TIME  2465.0    
+
+DATE  "01-Nov-2004"    
+#TIME  2496.0    
+
+DATE  "01-Dec-2004"    
+#TIME  2526.0    
+
+DATE  "01-Jan-2005"    
+#TIME  2557.0    
+
+DATE  "01-Feb-2005"    
+#TIME  2588.0    
+
+DATE  "01-Mar-2005"    
+#TIME  2616.0    
+
+DATE  "01-Apr-2005"    
+#TIME  2647.0    
+
+DATE  "01-May-2005"    
+#TIME  2677.0    
+
+DATE  "01-Jun-2005"    
+#TIME  2708.0    
+
+DATE  "01-Jul-2005"    
+#TIME  2738.0    
+
+DATE  "01-Aug-2005"    
+#TIME  2769.0    
+
+DATE  "01-Sep-2005"    
+#TIME  2800.0    
+
+DATE  "01-Oct-2005"    
+#TIME  2830.0    
+
+DATE  "01-Nov-2005"    
+#TIME  2861.0    
+
+DATE  "01-Dec-2005"    
+#TIME  2891.0    
+
+DATE  "01-Jan-2006"    
+#TIME  2922.0    
+
+DATE  "01-Feb-2006"    
+#TIME  2953.0    
+
+DATE  "01-Mar-2006"    
+#TIME  2981.0    
+
+DATE  "01-Apr-2006"    
+#TIME  3012.0    
+
+DATE  "01-May-2006"    
+#TIME  3042.0    
+
+DATE  "01-Jun-2006"    
+#TIME  3073.0    
+
+DATE  "01-Jul-2006"    
+#TIME  3103.0    
+
+DATE  "01-Aug-2006"    
+#TIME  3134.0    
+
+DATE  "01-Sep-2006"    
+#TIME  3165.0    
+
+DATE  "01-Oct-2006"    
+#TIME  3195.0    
+
+DATE  "01-Nov-2006"    
+#TIME  3226.0    
+
+DATE  "01-Dec-2006"    
+#TIME  3256.0    
+
+DATE  "01-Jan-2007"    
+#TIME  3287.0    
+
+DATE  "01-Feb-2007"    
+#TIME  3318.0    
+
+DATE  "01-Mar-2007"    
+#TIME  3346.0    
+
+DATE  "01-Apr-2007"    
+#TIME  3377.0    
+
+DATE  "01-May-2007"    
+#TIME  3407.0    
+
+DATE  "01-Jun-2007"    
+#TIME  3438.0    
+
+DATE  "01-Jul-2007"    
+#TIME  3468.0    
+
+DATE  "01-Aug-2007"    
+#TIME  3499.0    
+
+DATE  "01-Sep-2007"    
+#TIME  3530.0    
+
+DATE  "01-Oct-2007"    
+#TIME  3560.0    
+
+DATE  "01-Nov-2007"    
+#TIME  3591.0    
+
+DATE  "01-Dec-2007"    
+#TIME  3621.0    
+
+DATE  "01-Jan-2008"    
+#TIME  3652.0    
+
+END_INPUT
+#DATE  "01-Jan-2008"    
